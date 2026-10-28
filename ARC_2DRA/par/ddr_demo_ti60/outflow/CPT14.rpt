@@ -1,0 +1,8 @@
+**** Efinity Programming Tool Generation Report *****
+Time: 2026-09-12 18:13
+
+Generated FPGA Soc Image output file: C:\Users\13227\Documents\2026_qrs\2D_Rendering_Acceleration\ARC_2DRA\par\ddr_demo_ti60\outflow\CPT14.hex
+Flash Address  Length      Input Image File
+0x00000000     0x000ad882  C:/Users/13227/Documents/2026_qrs/2D_Rendering_Acceleration/ARC_2DRA/par/ddr_demo_ti60/outflow/ddr_demo_ti60.hex
+0x00380000     0x00002892  C:/Users/13227/Documents/2026_qrs/2D_Rendering_Acceleration/comptest2.bin
+

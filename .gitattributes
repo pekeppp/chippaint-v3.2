@@ -1,0 +1,16 @@
+# 二进制文件：不做换行转换、不做 diff
+*.docx    binary
+*.pdf     binary
+*.bit     binary
+*.bin     binary
+*.pdom    binary
+*.pickle  binary
+*.vdb     binary
+*.netlist binary
+*.lbf     binary
+*.png     binary
+*.jpg     binary
+
+# 超大的文本产物：不做换行归一化，避免整文件误判为改动
+*.hex     -text
+*.map.v   -text

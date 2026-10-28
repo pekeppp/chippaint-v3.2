@@ -1,0 +1,8 @@
+# 本仓库刻意保留综合/布线产物（outflow/、work_*/ 等），因此只忽略操作系统与编辑器的杂项文件。
+# 若只想看设计源码，见 README「关于仓库体积」一节。
+
+Thumbs.db
+desktop.ini
+.DS_Store
+*.swp
+*~

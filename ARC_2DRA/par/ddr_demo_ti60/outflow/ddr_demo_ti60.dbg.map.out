@@ -1,0 +1,165 @@
+INFO     : Elitestek FPGA Synthesis.
+INFO     : Version: 2026.1.132
+INFO     : Compiled: May 29 2026.
+INFO     : 
+INFO     : Copyright (C) 2013 - 2026 Efinix, Inc. All rights reserved.
+
+INFO     : Maximum concurrency has been set to 10 [FlowMsg::MaxThreads]
+INFO     : ***** Beginning Analysis ... *****
+INFO     : default VHDL library search path is now "C:/Efinity/2026.1/sim_models/vhdl/packages/vhdl_2008" [VHDL-1504]
+INFO     : Restoring all Verilog modules from file 'C:/Efinity/2026.1/sim_models/maplib/perilib_efxlib_parsetree.vdb' [VERI-2484]
+INFO     : Restoring all Verilog modules from file 'C:/Efinity/2026.1/sim_models/maplib/maplib_efxlib_parsetree.vdb' [VERI-2484]
+INFO     : Analyzing Verilog file 'C:/Users/13227/Documents/2026_qrs/2D_Rendering_Acceleration/ARC_2DRA/par/ddr_demo_ti60/work_dbg/debug_top.v' [VERI-1482]
+INFO     : Analysis took 0.0244825 seconds [FlowMsg::StageDuration]
+INFO     :     Analysis took 0.015625 seconds (approximately) in total CPU time [FlowMsg::StageDuration::CPUTime]
+INFO     : Analysis virtual memory usage: begin = 59.54 MB, end = 59.552 MB, delta = 0.012 MB [FlowMsg::VMUsage]
+INFO     :     Analysis peak virtual memory usage = 59.56 MB [FlowMsg::VMUsage::Peak]
+INFO     : Analysis resident set memory usage: begin = 64.892 MB, end = 68.06 MB, delta = 3.168 MB [FlowMsg::RSSUsage]
+INFO     :     Analysis peak resident set memory usage = 68.06 MB [FlowMsg::RSSUsage::Peak]
+INFO     : ***** Ending Analysis ... *****
+INFO     : ***** Beginning Elaboration ... *****
+WARNING  : C:/Users/13227/Documents/2026_qrs/2D_Rendering_Acceleration/ARC_2DRA/par/ddr_demo_ti60/work_dbg/debug_top.v(118): port 'probe2' remains unconnected for this instance [VERI-1927]
+INFO     : C:/Users/13227/Documents/2026_qrs/2D_Rendering_Acceleration/ARC_2DRA/par/ddr_demo_ti60/work_dbg/debug_top.v(14): compiling module 'edb_top' [VERI-1018]
+INFO     : ../../vdb/src/efinix_maplib.v(48): compiling module 'EFX_GBUFCE(CE_POLARITY=1'b1)' [VERI-1018]
+INFO     : C:/Users/13227/Documents/2026_qrs/2D_Rendering_Acceleration/ARC_2DRA/par/ddr_demo_ti60/work_dbg/debug_top.v(504): compiling module 'edb_la_top_1cc66f16653041cca53e6143234fa574(NUM_PROBES=2,INPUT_PIPE_STAGES=1,UUID=128'b0111010110110011011011100010011010001101100111101001100111111111001011000000100100100000000010010101001111101011000111011001101,PROBE0_TYPE=1,PROBE1_TYPE=1)' [VERI-1018]
+INFO     : C:/Users/13227/Documents/2026_qrs/2D_Rendering_Acceleration/ARC_2DRA/par/ddr_demo_ti60/work_dbg/debug_top.v(193): compiling module 'edb_adbg_crc32_1cc66f16653041cca53e6143234fa574' [VERI-1018]
+INFO     : C:/Users/13227/Documents/2026_qrs/2D_Rendering_Acceleration/ARC_2DRA/par/ddr_demo_ti60/work_dbg/debug_top.v(5512): compiling module 'compare_unit_1cc66f16653041cca53e6143234fa574(WIDTH=11'b01,PIPE=1)' [VERI-1018]
+INFO     : C:/Users/13227/Documents/2026_qrs/2D_Rendering_Acceleration/ARC_2DRA/par/ddr_demo_ti60/work_dbg/debug_top.v(5717): compiling module 'trigger_unit_1cc66f16653041cca53e6143234fa574(WIDTH=32'b010,PIPE=1)' [VERI-1018]
+INFO     : C:/Users/13227/Documents/2026_qrs/2D_Rendering_Acceleration/ARC_2DRA/par/ddr_demo_ti60/work_dbg/debug_top.v(5842): compiling module 'trigger_skipper_1cc66f16653041cca53e6143234fa574' [VERI-1018]
+INFO     : C:/Users/13227/Documents/2026_qrs/2D_Rendering_Acceleration/ARC_2DRA/par/ddr_demo_ti60/work_dbg/debug_top.v(4858): compiling module 'la_biu_1cc66f16653041cca53e6143234fa574(CAPTURE_WIDTH=32'b010)' [VERI-1018]
+INFO     : C:/Users/13227/Documents/2026_qrs/2D_Rendering_Acceleration/ARC_2DRA/par/ddr_demo_ti60/work_dbg/debug_top.v(4598): compiling module 'fifo_with_read_1cc66f16653041cca53e6143234fa574(DATA_WIDTH=32'b011,PIPE=0)' [VERI-1018]
+INFO     : C:/Users/13227/Documents/2026_qrs/2D_Rendering_Acceleration/ARC_2DRA/par/ddr_demo_ti60/work_dbg/debug_top.v(4548): compiling module 'fifo_address_trancode_unit_1cc66f16653041cca53e6143234fa574(PIPE=0)' [VERI-1018]
+INFO     : C:/Users/13227/Documents/2026_qrs/2D_Rendering_Acceleration/ARC_2DRA/par/ddr_demo_ti60/work_dbg/debug_top.v(414): compiling module 'edb_simple_dual_port_ram_1cc66f16653041cca53e6143234fa574(DATA_WIDTH=32'b011,ADDR_WIDTH=10,RAM_INIT_FILE="")' [VERI-1018]
+INFO     : C:/Users/13227/Documents/2026_qrs/2D_Rendering_Acceleration/ARC_2DRA/par/ddr_demo_ti60/work_dbg/debug_top.v(429): extracting RAM for identifier 'ram' [VERI-2571]
+INFO     : C:/Users/13227/Documents/2026_qrs/2D_Rendering_Acceleration/ARC_2DRA/par/ddr_demo_ti60/work_dbg/debug_top.v(271): compiling module 'debug_hub_1cc66f16653041cca53e6143234fa574' [VERI-1018]
+WARNING  : C:/Users/13227/Documents/2026_qrs/2D_Rendering_Acceleration/ARC_2DRA/par/ddr_demo_ti60/work_dbg/debug_top.v(95): input port 'probe2[0]' remains unconnected for this instance [VDB-1053]
+INFO     : Elaboration took 0.0571837 seconds [FlowMsg::StageDuration]
+INFO     :     Elaboration took 0.046875 seconds (approximately) in total CPU time [FlowMsg::StageDuration::CPUTime]
+INFO     : Elaboration virtual memory usage: begin = 59.552 MB, end = 71.868 MB, delta = 12.316 MB [FlowMsg::VMUsage]
+INFO     :     Elaboration peak virtual memory usage = 71.868 MB [FlowMsg::VMUsage::Peak]
+INFO     : Elaboration resident set memory usage: begin = 68.104 MB, end = 81.272 MB, delta = 13.168 MB [FlowMsg::RSSUsage]
+INFO     :     Elaboration peak resident set memory usage = 81.272 MB [FlowMsg::RSSUsage::Peak]
+INFO     : ***** Ending Elaboration ... *****
+INFO     : ... Setting Synthesis Option: mode=speed
+INFO     : ***** Beginning Reading Mapping Library ... *****
+INFO     : Reading Mapping Library took 0.0026142 seconds [FlowMsg::StageDuration]
+INFO     :     Reading Mapping Library took 0 seconds (approximately) in total CPU time [FlowMsg::StageDuration::CPUTime]
+INFO     : Reading Mapping Library virtual memory usage: begin = 71.868 MB, end = 71.868 MB, delta = 0 MB [FlowMsg::VMUsage]
+INFO     :     Reading Mapping Library peak virtual memory usage = 71.868 MB [FlowMsg::VMUsage::Peak]
+INFO     : Reading Mapping Library resident set memory usage: begin = 82.304 MB, end = 82.316 MB, delta = 0.012 MB [FlowMsg::RSSUsage]
+INFO     :     Reading Mapping Library peak resident set memory usage = 82.316 MB [FlowMsg::RSSUsage::Peak]
+INFO     : ***** Ending Reading Mapping Library ... *****
+INFO     : ... Pre-synthesis checks begin
+WARNING  : Removing redundant signal : compared_in[0]. (C:/Users/13227/Documents/2026_qrs/2D_Rendering_Acceleration/ARC_2DRA/par/ddr_demo_ti60/work_dbg/debug_top.v:5518) [EFX-0200]
+WARNING  : Removing redundant signal : mask_in[0]. (C:/Users/13227/Documents/2026_qrs/2D_Rendering_Acceleration/ARC_2DRA/par/ddr_demo_ti60/work_dbg/debug_top.v:5519) [EFX-0200]
+WARNING  : Removing redundant signal : trigger_in. (C:/Users/13227/Documents/2026_qrs/2D_Rendering_Acceleration/ARC_2DRA/par/ddr_demo_ti60/work_dbg/debug_top.v:5729) [EFX-0200]
+WARNING  : Removing redundant signal : clk. (C:/Users/13227/Documents/2026_qrs/2D_Rendering_Acceleration/ARC_2DRA/par/ddr_demo_ti60/work_dbg/debug_top.v:4554) [EFX-0200]
+INFO     : ... Memory 'ram' is not initialized, assuming empty initial contents. (C:/Users/13227/Documents/2026_qrs/2D_Rendering_Acceleration/ARC_2DRA/par/ddr_demo_ti60/work_dbg/debug_top.v:429) [EFX-0677]
+WARNING  : Removing redundant signal : full. (C:/Users/13227/Documents/2026_qrs/2D_Rendering_Acceleration/ARC_2DRA/par/ddr_demo_ti60/work_dbg/debug_top.v:4608) [EFX-0200]
+WARNING  : Removing redundant signal : shift_i. (C:/Users/13227/Documents/2026_qrs/2D_Rendering_Acceleration/ARC_2DRA/par/ddr_demo_ti60/work_dbg/debug_top.v:4878) [EFX-0200]
+WARNING  : Removing redundant signal : trig_out. (C:/Users/13227/Documents/2026_qrs/2D_Rendering_Acceleration/ARC_2DRA/par/ddr_demo_ti60/work_dbg/debug_top.v:4895) [EFX-0200]
+WARNING  : Removing redundant signal : trig_out_ack. (C:/Users/13227/Documents/2026_qrs/2D_Rendering_Acceleration/ARC_2DRA/par/ddr_demo_ti60/work_dbg/debug_top.v:4896) [EFX-0200]
+WARNING  : Removing redundant signal : bscan_DRCK. (C:/Users/13227/Documents/2026_qrs/2D_Rendering_Acceleration/ARC_2DRA/par/ddr_demo_ti60/work_dbg/debug_top.v:1037) [EFX-0200]
+WARNING  : Removing redundant signal : bscan_RESET. (C:/Users/13227/Documents/2026_qrs/2D_Rendering_Acceleration/ARC_2DRA/par/ddr_demo_ti60/work_dbg/debug_top.v:1038) [EFX-0200]
+WARNING  : Removing redundant signal : bscan_RUNTEST. (C:/Users/13227/Documents/2026_qrs/2D_Rendering_Acceleration/ARC_2DRA/par/ddr_demo_ti60/work_dbg/debug_top.v:1039) [EFX-0200]
+WARNING  : Removing redundant signal : bscan_SEL. (C:/Users/13227/Documents/2026_qrs/2D_Rendering_Acceleration/ARC_2DRA/par/ddr_demo_ti60/work_dbg/debug_top.v:1040) [EFX-0200]
+WARNING  : Removing redundant signal : bscan_TMS. (C:/Users/13227/Documents/2026_qrs/2D_Rendering_Acceleration/ARC_2DRA/par/ddr_demo_ti60/work_dbg/debug_top.v:1044) [EFX-0200]
+WARNING  : Removing redundant signal : trig_in_ack. (C:/Users/13227/Documents/2026_qrs/2D_Rendering_Acceleration/ARC_2DRA/par/ddr_demo_ti60/work_dbg/debug_top.v:1056) [EFX-0200]
+WARNING  : Removing redundant signal : mux_capture_cmp[1:0]. (C:/Users/13227/Documents/2026_qrs/2D_Rendering_Acceleration/ARC_2DRA/par/ddr_demo_ti60/work_dbg/debug_top.v:3475) [EFX-0200]
+WARNING  : Removing redundant signal : bscan_CAPTURE. (C:/Users/13227/Documents/2026_qrs/2D_Rendering_Acceleration/ARC_2DRA/par/ddr_demo_ti60/work_dbg/debug_top.v:276) [EFX-0200]
+WARNING  : Removing redundant signal : bscan_DRCK. (C:/Users/13227/Documents/2026_qrs/2D_Rendering_Acceleration/ARC_2DRA/par/ddr_demo_ti60/work_dbg/debug_top.v:277) [EFX-0200]
+WARNING  : Removing redundant signal : bscan_RUNTEST. (C:/Users/13227/Documents/2026_qrs/2D_Rendering_Acceleration/ARC_2DRA/par/ddr_demo_ti60/work_dbg/debug_top.v:279) [EFX-0200]
+WARNING  : Removing redundant signal : bscan_TMS. (C:/Users/13227/Documents/2026_qrs/2D_Rendering_Acceleration/ARC_2DRA/par/ddr_demo_ti60/work_dbg/debug_top.v:284) [EFX-0200]
+INFO     : Module Instance 'la0' input pin 'trig_in' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'la0' input pin 'trig_out_ack' is tied to constant (=0). [EFX-0266]
+WARNING  : Re-wiring to GND non-driven net/port 'probe2[0]' in module 'edb_la_top_1cc66f16653041cca53e6143234fa574(NUM_PROBES=2,INPUT_PIPE_STAGES=1,UUID=128'b0111010110110011011011100010011010001101100111101001100111111111001011000000100100100000000010010101001111101011000111011001101,PROBE0_TYPE=1,PROBE1_TYPE=1)'. (C:/Users/13227/Documents/2026_qrs/2D_Rendering_Acceleration/ARC_2DRA/par/ddr_demo_ti60/work_dbg/debug_top.v:95) [EFX-0201]
+WARNING  : Re-wiring to GND non-driven net/port 'probe3[0]' in module 'edb_la_top_1cc66f16653041cca53e6143234fa574(NUM_PROBES=2,INPUT_PIPE_STAGES=1,UUID=128'b0111010110110011011011100010011010001101100111101001100111111111001011000000100100100000000010010101001111101011000111011001101,PROBE0_TYPE=1,PROBE1_TYPE=1)'. (C:/Users/13227/Documents/2026_qrs/2D_Rendering_Acceleration/ARC_2DRA/par/ddr_demo_ti60/work_dbg/debug_top.v:95) [EFX-0201]
+WARNING  : Re-wiring to GND non-driven net/port 'probe4[0]' in module 'edb_la_top_1cc66f16653041cca53e6143234fa574(NUM_PROBES=2,INPUT_PIPE_STAGES=1,UUID=128'b0111010110110011011011100010011010001101100111101001100111111111001011000000100100100000000010010101001111101011000111011001101,PROBE0_TYPE=1,PROBE1_TYPE=1)'. (C:/Users/13227/Documents/2026_qrs/2D_Rendering_Acceleration/ARC_2DRA/par/ddr_demo_ti60/work_dbg/debug_top.v:95) [EFX-0201]
+WARNING  : Re-wiring to GND non-driven net/port 'probe5[0]' in module 'edb_la_top_1cc66f16653041cca53e6143234fa574(NUM_PROBES=2,INPUT_PIPE_STAGES=1,UUID=128'b0111010110110011011011100010011010001101100111101001100111111111001011000000100100100000000010010101001111101011000111011001101,PROBE0_TYPE=1,PROBE1_TYPE=1)'. (C:/Users/13227/Documents/2026_qrs/2D_Rendering_Acceleration/ARC_2DRA/par/ddr_demo_ti60/work_dbg/debug_top.v:95) [EFX-0201]
+WARNING  : Re-wiring to GND non-driven net/port 'probe6[0]' in module 'edb_la_top_1cc66f16653041cca53e6143234fa574(NUM_PROBES=2,INPUT_PIPE_STAGES=1,UUID=128'b0111010110110011011011100010011010001101100111101001100111111111001011000000100100100000000010010101001111101011000111011001101,PROBE0_TYPE=1,PROBE1_TYPE=1)'. (C:/Users/13227/Documents/2026_qrs/2D_Rendering_Acceleration/ARC_2DRA/par/ddr_demo_ti60/work_dbg/debug_top.v:95) [EFX-0201]
+WARNING  : Re-wiring to GND non-driven net/port 'probe7[0]' in module 'edb_la_top_1cc66f16653041cca53e6143234fa574(NUM_PROBES=2,INPUT_PIPE_STAGES=1,UUID=128'b0111010110110011011011100010011010001101100111101001100111111111001011000000100100100000000010010101001111101011000111011001101,PROBE0_TYPE=1,PROBE1_TYPE=1)'. (C:/Users/13227/Documents/2026_qrs/2D_Rendering_Acceleration/ARC_2DRA/par/ddr_demo_ti60/work_dbg/debug_top.v:95) [EFX-0201]
+WARNING  : Re-wiring to GND non-driven net/port 'probe8[0]' in module 'edb_la_top_1cc66f16653041cca53e6143234fa574(NUM_PROBES=2,INPUT_PIPE_STAGES=1,UUID=128'b0111010110110011011011100010011010001101100111101001100111111111001011000000100100100000000010010101001111101011000111011001101,PROBE0_TYPE=1,PROBE1_TYPE=1)'. (C:/Users/13227/Documents/2026_qrs/2D_Rendering_Acceleration/ARC_2DRA/par/ddr_demo_ti60/work_dbg/debug_top.v:95) [EFX-0201]
+WARNING  : Re-wiring to GND non-driven net/port 'probe9[0]' in module 'edb_la_top_1cc66f16653041cca53e6143234fa574(NUM_PROBES=2,INPUT_PIPE_STAGES=1,UUID=128'b0111010110110011011011100010011010001101100111101001100111111111001011000000100100100000000010010101001111101011000111011001101,PROBE0_TYPE=1,PROBE1_TYPE=1)'. (C:/Users/13227/Documents/2026_qrs/2D_Rendering_Acceleration/ARC_2DRA/par/ddr_demo_ti60/work_dbg/debug_top.v:95) [EFX-0201]
+WARNING  : Re-wiring to GND non-driven net/port 'probe10[0]' in module 'edb_la_top_1cc66f16653041cca53e6143234fa574(NUM_PROBES=2,INPUT_PIPE_STAGES=1,UUID=128'b0111010110110011011011100010011010001101100111101001100111111111001011000000100100100000000010010101001111101011000111011001101,PROBE0_TYPE=1,PROBE1_TYPE=1)'. (C:/Users/13227/Documents/2026_qrs/2D_Rendering_Acceleration/ARC_2DRA/par/ddr_demo_ti60/work_dbg/debug_top.v:95) [EFX-0201]
+WARNING  : Re-wiring to GND non-driven net/port 'probe11[0]' in module 'edb_la_top_1cc66f16653041cca53e6143234fa574(NUM_PROBES=2,INPUT_PIPE_STAGES=1,UUID=128'b0111010110110011011011100010011010001101100111101001100111111111001011000000100100100000000010010101001111101011000111011001101,PROBE0_TYPE=1,PROBE1_TYPE=1)'. (C:/Users/13227/Documents/2026_qrs/2D_Rendering_Acceleration/ARC_2DRA/par/ddr_demo_ti60/work_dbg/debug_top.v:95) [EFX-0201]
+WARNING  : (The above message was generated too many times, subsequent similar messages will be muted.) [EFX-0201]
+INFO     : ... Pre-synthesis checks end (Real time : 0s)
+INFO     : ... NameSpace init begin
+INFO     : ... NameSpace init end (Real time : 0s)
+INFO     : ... Mapping design "edb_top"
+INFO     : ... Hierarchical pre-synthesis "edb_adbg_crc32_1cc66f16653041cca53e6143234fa574" begin
+INFO     : ... Hierarchical pre-synthesis "edb_adbg_crc32_1cc66f16653041cca53e6143234fa574" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "compare_unit_1cc66f16653041cca53e6143234fa574(WIDTH=11'b01,PIPE=1)" begin
+INFO     : ... Hierarchical pre-synthesis "compare_unit_1cc66f16653041cca53e6143234fa574(WIDTH=11'b01,PIPE=1)" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "trigger_unit_1cc66f16653041cca53e6143234fa574(WIDTH=32'b010,PIPE=1)" begin
+INFO     : ... Hierarchical pre-synthesis "trigger_unit_1cc66f16653041cca53e6143234fa574(WIDTH=32'b010,PIPE=1)" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "trigger_skipper_1cc66f16653041cca53e6143234fa574" begin
+INFO     : ... Hierarchical pre-synthesis "trigger_skipper_1cc66f16653041cca53e6143234fa574" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "fifo_address_trancode_unit_1cc66f16653041cca53e6143234fa574(PIPE=0)" begin
+INFO     : ... Hierarchical pre-synthesis "fifo_address_trancode_unit_1cc66f16653041cca53e6143234fa574(PIPE=0)" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "edb_simple_dual_port_ram_1cc66f16653041cca53e6143234fa574(DATA_WIDTH=32'b011,ADDR_WIDTH=10,RAM_INIT_FILE="")" begin
+INFO     : ... Hierarchical pre-synthesis "edb_simple_dual_port_ram_1cc66f16653041cca53e6143234fa574(DATA_WIDTH=32'b011,ADDR_WIDTH=10,RAM_INIT_FILE="")" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "fifo_with_read_1cc66f16653041cca53e6143234fa574(DATA_WIDTH=32'b011,PIPE=0)" begin
+INFO     : ... Hierarchical pre-synthesis "fifo_with_read_1cc66f16653041cca53e6143234fa574(DATA_WIDTH=32'b011,PIPE=0)" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "la_biu_1cc66f16653041cca53e6143234fa574(CAPTURE_WIDTH=32'b010)" begin
+INFO     : ... Hierarchical pre-synthesis "la_biu_1cc66f16653041cca53e6143234fa574(CAPTURE_WIDTH=32'b010)" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "edb_la_top_1cc66f16653041cca53e6143234fa574(NUM_PROBES=2,INPUT_PIPE_STAGES=1,UUID=128'b0111010110110011011011100010011010001101100111101001100111111111001011000000100100100000000010010101001111101011000111011001101,PROBE0_TYPE=1,PROBE1_TYPE=1)" begin
+INFO     : ... Hierarchical pre-synthesis "edb_la_top_1cc66f16653041cca53e6143234fa574(NUM_PROBES=2,INPUT_PIPE_STAGES=1,UUID=128'b0111010110110011011011100010011010001101100111101001100111111111001011000000100100100000000010010101001111101011000111011001101,PROBE0_TYPE=1,PROBE1_TYPE=1)" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "debug_hub_1cc66f16653041cca53e6143234fa574" begin
+INFO     : ... Hierarchical pre-synthesis "debug_hub_1cc66f16653041cca53e6143234fa574" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "edb_top" begin
+INFO     : ... Clock Enable Synthesis Performed on 129 flops.
+INFO     : ... Hierarchical pre-synthesis "edb_top" end (Real time : 0s)
+INFO     : ... Flat optimizations begin
+INFO     : ... Flat optimizations end (Real time : 0s)
+INFO     : ... Flat synthesis begin
+INFO     : ... Flat synthesis end (Real time : 0s)
+INFO     : ... Flat optimizations begin
+INFO     : ... Flat optimizations end (Real time : 0s)
+INFO     : ... Check and break combinational loops begin
+INFO     : ... Check and break combinational loops end (Real time : 0s)
+INFO     : ... Sequential Optimization begin
+INFO     : ... Clock Network 'bscan_TCK_buffered' with 454 loads will be considered for sequential optimization.
+INFO     : ... Clock Network 'la0_clk' with 156 loads will be considered for sequential optimization.
+INFO     : ... Sequential Optimization deduced 130 equivalent points.
+INFO     : ... Sequential Optimization end (Real time : 1s)
+INFO     : ... Setup for logic synthesis begin
+INFO     : ... Setup for logic synthesis end (Real time : 0s)
+INFO     : ... LUT mapping begin
+INFO     : ... LS, strategy: 3, nd: 943, ed: 3204, lv: 7, pw: 1464.08
+INFO     : ... LUT mapping end (Real time : 3s)
+INFO     : ... Post-synthesis Verific netlist creation begin
+INFO     : ... Post-synthesis Verific netlist creation end (Real time : 0s)
+INFO     : ... Postmap Retiming Optimization begin
+INFO     : ... Clock Network 'bscan_TCK_buffered' with 454 loads will be considered for retiming optimization.
+INFO     : ... Clock Network 'la0_clk~la0_clk' with 156 loads will be considered for retiming optimization.
+INFO     : ... Performed 0 retime moves.
+INFO     : ... Postmap Retiming Optimization end (Real time : 0s)
+INFO     : ***** Beginning VDB Netlist Checker ... *****
+WARNING  : C:/Users/13227/Documents/2026_qrs/2D_Rendering_Acceleration/ARC_2DRA/par/ddr_demo_ti60/work_dbg/debug_top.v(17): Input/inout port bscan_DRCK is unconnected. Place and route may remove this unconnected port. [VDB-8003]
+WARNING  : C:/Users/13227/Documents/2026_qrs/2D_Rendering_Acceleration/ARC_2DRA/par/ddr_demo_ti60/work_dbg/debug_top.v(19): Input/inout port bscan_RUNTEST is unconnected. Place and route may remove this unconnected port. [VDB-8003]
+WARNING  : C:/Users/13227/Documents/2026_qrs/2D_Rendering_Acceleration/ARC_2DRA/par/ddr_demo_ti60/work_dbg/debug_top.v(24): Input/inout port bscan_TMS is unconnected. Place and route may remove this unconnected port. [VDB-8003]
+WARNING  : Found 3 warnings in the post-synthesis netlist.
+INFO     : VDB Netlist Checker took 0.001302 seconds [FlowMsg::StageDuration]
+INFO     :     VDB Netlist Checker took 0 seconds (approximately) in total CPU time [FlowMsg::StageDuration::CPUTime]
+INFO     : VDB Netlist Checker virtual memory usage: begin = 88.052 MB, end = 88.14 MB, delta = 0.088 MB [FlowMsg::VMUsage]
+INFO     :     VDB Netlist Checker peak virtual memory usage = 141.844 MB [FlowMsg::VMUsage::Peak]
+INFO     : VDB Netlist Checker resident set memory usage: begin = 105.176 MB, end = 105.332 MB, delta = 0.156 MB [FlowMsg::RSSUsage]
+INFO     :     VDB Netlist Checker peak resident set memory usage = 154.148 MB [FlowMsg::RSSUsage::Peak]
+INFO     : ***** Ending VDB Netlist Checker ... *****
+INFO     : Resource Summary 
+INFO     : ======================================= 
+INFO     : EFX_ADD                 : 	155
+INFO     : EFX_LUT4                : 	929
+INFO     : EFX_FF                  : 	601
+INFO     : EFX_SRL8                : 	2
+INFO     : EFX_RAM10               : 	1
+INFO     : EFX_GBUFCE              : 	1
+INFO     : ======================================= 
+INFO     : Writing netlist 'edb_top' to Verilog file 'C:/Users/13227/Documents/2026_qrs/2D_Rendering_Acceleration/ARC_2DRA/par/ddr_demo_ti60/work_dbg/debug_top.stub.v' [VDB-1030]
+INFO     : The entire flow of EFX_MAP took 4.1281485 seconds [FlowMsg::StageDuration]
+INFO     :     The entire flow of EFX_MAP took 4.15625 seconds (approximately) in total CPU time [FlowMsg::StageDuration::CPUTime]
+INFO     : The entire flow of EFX_MAP virtual memory usage: begin = 19.024 MB, end = 97.428 MB, delta = 78.404 MB [FlowMsg::VMUsage]
+INFO     :     The entire flow of EFX_MAP peak virtual memory usage = 141.844 MB [FlowMsg::VMUsage::Peak]
+INFO     : The entire flow of EFX_MAP resident set memory usage: begin = 20.556 MB, end = 112.996 MB, delta = 92.44 MB [FlowMsg::RSSUsage]
+INFO     :     The entire flow of EFX_MAP peak resident set memory usage = 154.148 MB [FlowMsg::RSSUsage::Peak]

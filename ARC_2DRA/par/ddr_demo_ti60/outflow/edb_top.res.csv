@@ -1,0 +1,19 @@
+sep=\t
+Module Resource Usage Distribution Estimates
+Generated at: Sep 16, 2026 08:45:25
+
+Note: some resources maybe grouped under different hierarchy due to optimization and LUT mapping
+
+Module	       FFs	      SRLs	      ADDs	      LUTs	    COMB4s	      RAMs	 DSP/MULTs
+edb_top:edb_top                                             	   601(0)	     2(0)	   155(0)	   929(0)	     0(0)	     1(0)	     0(0)	
+ +la0:edb_la_top_1cc66f16653041cca53e6143234fa574(NUM_PROBES=2,INPUT_PIPE_STAGES=1,UUID=128'b0111010110110011011011100010011010001101100111101001100111111111001011000000100100100000000010010101001111101011000111011001101,PROBE0_TYPE=1,PROBE1_TYPE=1)	 514(317)	     2(0)	  155(39)	 897(374)	     0(0)	     1(0)	     0(0)	
+  +axi_crc_i:edb_adbg_crc32_1cc66f16653041cca53e6143234fa574	   32(32)	     0(0)	     0(0)	   38(38)	     0(0)	     0(0)	     0(0)	
+  +GEN_PROBE[0].genblk7.genblk3.trigger_cu:compare_unit_1cc66f16653041cca53e6143234fa574(WIDTH=11'b01,PIPE=1)	     7(7)	     0(0)	     0(0)	     7(7)	     0(0)	     0(0)	     0(0)	
+  +GEN_PROBE[1].genblk7.genblk3.trigger_cu:compare_unit_1cc66f16653041cca53e6143234fa574(WIDTH=11'b01,PIPE=1)	     7(7)	     0(0)	     0(0)	     7(7)	     0(0)	     0(0)	     0(0)	
+  +trigger_tu:trigger_unit_1cc66f16653041cca53e6143234fa574(WIDTH=32'b010,PIPE=1)	     1(1)	     0(0)	     0(0)	     4(4)	     0(0)	     0(0)	     0(0)	
+  +trigger_skipper_n:trigger_skipper_1cc66f16653041cca53e6143234fa574	   65(65)	     0(0)	   63(63)	 219(219)	     0(0)	     0(0)	     0(0)	
+  +la_biu_inst:la_biu_1cc66f16653041cca53e6143234fa574(CAPTURE_WIDTH=32'b010)	   85(33)	     2(0)	    53(0)	 248(148)	     0(0)	     1(0)	     0(0)	
+   +fifo_with_read_inst:fifo_with_read_1cc66f16653041cca53e6143234fa574(DATA_WIDTH=32'b011,PIPE=0)	   52(52)	     2(2)	   53(53)	  100(69)	     0(0)	     1(0)	     0(0)	
+    +transcode_write_addr:fifo_address_trancode_unit_1cc66f16653041cca53e6143234fa574(PIPE=0)	     0(0)	     0(0)	     0(0)	   29(29)	     0(0)	     0(0)	     0(0)	
+    +simple_dual_port_ram_inst:edb_simple_dual_port_ram_1cc66f16653041cca53e6143234fa574(DATA_WIDTH=32'b011,ADDR_WIDTH=10,RAM_INIT_FILE="")	     0(0)	     0(0)	     0(0)	     2(2)	     0(0)	     1(1)	     0(0)	
+ +debug_hub_inst:debug_hub_1cc66f16653041cca53e6143234fa574 	   87(87)	     0(0)	     0(0)	   32(32)	     0(0)	     0(0)	     0(0)	

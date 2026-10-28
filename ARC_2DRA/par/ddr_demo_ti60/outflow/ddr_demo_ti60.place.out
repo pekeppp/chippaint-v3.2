@@ -1,0 +1,415 @@
+           
+           Elitestek FPGA Placement and Routing.
+           Version: 2026.1.132 
+           Compiled: May 29 2026.
+           
+           Copyright (C) 2013 - 2026 Efinix, Inc. All rights reserved.
+
+           
+           The Tool Is Based on VPR of University of Toronto,
+           a free open source code under MIT license.
+           
+WARNING  : Found 20 warnings in the post-synthesis netlist.
+INFO     : Reading core interface constraints file "C:/Users/13227/Documents/2026_qrs/2D_Rendering_Acceleration/ARC_2DRA/par/ddr_demo_ti60/outflow/ddr_demo_ti60.interface.csv" [DBMsg::CoreInterfaceConstraintsFileReading]
+INFO     : Successfully read core interface constraints file "C:/Users/13227/Documents/2026_qrs/2D_Rendering_Acceleration/ARC_2DRA/par/ddr_demo_ti60/outflow/ddr_demo_ti60.interface.csv" [DBMsg::CoreInterfaceConstraintsFileLoadSuccess]
+INFO     : Creating interface clock pin clk_100m [DBMsg::NetlistInterfaceClockPinCreated]
+INFO     : Creating interface clock pin clk_25m [DBMsg::NetlistInterfaceClockPinCreated]
+INFO     : Creating interface clock pin hdmi_tx_fast_clk [DBMsg::NetlistInterfaceClockPinCreated]
+WARNING  : logical_block LUT__110962 #10171 has no fanout [DBMsg::NetlistLogicalBlockNoFanout]
+WARNING  : logical_block LUT__110963 #10172 has no fanout [DBMsg::NetlistLogicalBlockNoFanout]
+WARNING  : logical_block LUT__110964 #10173 has no fanout [DBMsg::NetlistLogicalBlockNoFanout]
+WARNING  : logical_block LUT__110965 #10174 has no fanout [DBMsg::NetlistLogicalBlockNoFanout]
+WARNING  : logical_block LUT__110966 #10175 has no fanout [DBMsg::NetlistLogicalBlockNoFanout]
+WARNING  : logical_block u_sapphire_soc/u_EfxSapphireSoc/system_cores_0_logic_cpu/IBusCachedPlugin_cache/lineLoader_address[0]~FF #42664 has no fanout [DBMsg::NetlistLogicalBlockNoFanout]
+WARNING  : logical_block u_sapphire_soc/u_EfxSapphireSoc/system_cores_0_logic_cpu/IBusCachedPlugin_cache/lineLoader_address[1]~FF #42665 has no fanout [DBMsg::NetlistLogicalBlockNoFanout]
+WARNING  : logical_block u_sapphire_soc/u_EfxSapphireSoc/system_cores_0_logic_cpu/IBusCachedPlugin_cache/lineLoader_address[2]~FF #42666 has no fanout [DBMsg::NetlistLogicalBlockNoFanout]
+WARNING  : logical_block u_sapphire_soc/u_EfxSapphireSoc/system_cores_0_logic_cpu/IBusCachedPlugin_cache/lineLoader_address[3]~FF #42667 has no fanout [DBMsg::NetlistLogicalBlockNoFanout]
+WARNING  : logical_block u_sapphire_soc/u_EfxSapphireSoc/system_cores_0_logic_cpu/IBusCachedPlugin_cache/lineLoader_address[4]~FF #42668 has no fanout [DBMsg::NetlistLogicalBlockNoFanout]
+WARNING  : logical_block u_sapphire_soc/u_EfxSapphireSoc/system_cores_0_logic_cpu/IBusCachedPlugin_cache/lineLoader_address[5]~FF #42669 has no fanout [DBMsg::NetlistLogicalBlockNoFanout]
+WARNING  : logical_block LUT__110962 #10171 has no fanout [DBMsg::NetlistLogicalBlockNoFanout]
+WARNING  : logical_block LUT__110963 #10172 has no fanout [DBMsg::NetlistLogicalBlockNoFanout]
+WARNING  : logical_block LUT__110964 #10173 has no fanout [DBMsg::NetlistLogicalBlockNoFanout]
+WARNING  : logical_block LUT__110965 #10174 has no fanout [DBMsg::NetlistLogicalBlockNoFanout]
+WARNING  : logical_block LUT__110966 #10175 has no fanout [DBMsg::NetlistLogicalBlockNoFanout]
+WARNING  : logical_block u_sapphire_soc/u_EfxSapphireSoc/system_cores_0_logic_cpu/IBusCachedPlugin_cache/lineLoader_address[0]~FF #42664 has no fanout [DBMsg::NetlistLogicalBlockNoFanout]
+WARNING  : logical_block u_sapphire_soc/u_EfxSapphireSoc/system_cores_0_logic_cpu/IBusCachedPlugin_cache/lineLoader_address[1]~FF #42665 has no fanout [DBMsg::NetlistLogicalBlockNoFanout]
+WARNING  : logical_block u_sapphire_soc/u_EfxSapphireSoc/system_cores_0_logic_cpu/IBusCachedPlugin_cache/lineLoader_address[2]~FF #42666 has no fanout [DBMsg::NetlistLogicalBlockNoFanout]
+WARNING  : logical_block u_sapphire_soc/u_EfxSapphireSoc/system_cores_0_logic_cpu/IBusCachedPlugin_cache/lineLoader_address[3]~FF #42667 has no fanout [DBMsg::NetlistLogicalBlockNoFanout]
+WARNING  : logical_block u_sapphire_soc/u_EfxSapphireSoc/system_cores_0_logic_cpu/IBusCachedPlugin_cache/lineLoader_address[4]~FF #42668 has no fanout [DBMsg::NetlistLogicalBlockNoFanout]
+WARNING  : logical_block u_sapphire_soc/u_EfxSapphireSoc/system_cores_0_logic_cpu/IBusCachedPlugin_cache/lineLoader_address[5]~FF #42669 has no fanout [DBMsg::NetlistLogicalBlockNoFanout]
+INFO     : Reading core interface constraints file "C:/Users/13227/Documents/2026_qrs/2D_Rendering_Acceleration/ARC_2DRA/par/ddr_demo_ti60/outflow/ddr_demo_ti60.interface.csv" [DBMsg::CoreInterfaceConstraintsFileReading]
+INFO     : Successfully read core interface constraints file "C:/Users/13227/Documents/2026_qrs/2D_Rendering_Acceleration/ARC_2DRA/par/ddr_demo_ti60/outflow/ddr_demo_ti60.interface.csv" [DBMsg::CoreInterfaceConstraintsFileLoadSuccess]
+WARNING  : Clock source "jtag_inst1_TCK" does not use a dedicated clock pad, extra clock insertion delay will been added
+WARNING  : Clock source "jtag_inst2_autodbg_TCK__" does not use a dedicated clock pad, extra clock insertion delay will been added
+INFO     : Counting 2 clocks that are not assigned to clock resources as global clocks.
+INFO     : XLR count after merging: 38741
+INFO     : Netlist has 22249 luts, 19610 ffs and 3664 adders [PackerMsg::NetlistStatistics]
+INFO     : Packed into 38741 clusters with 2.4814022(1.0453783) inputs(outputs) per cluster for a total of 96132(40499) inputs(outputs) [PackerMsg::ClusterPackingStatistics]
+INFO     : Packed into 38741 xlrs with 2.4814022(1.0453783) inputs(outputs) per xlr for a total of 96132(40499) inputs(outputs) [PackerMsg::XLRPackingStatistics]
+INFO     : Packed 14 fracturable DSPs into 14 clusters [PackerMsg::DSPPackingStatistics]
+INFO     : Packing took 2.6497663 seconds [FlowMsg::StageDuration]
+INFO     :     Packing took 5.53125 seconds (approximately) in total CPU time [FlowMsg::StageDuration::CPUTime]
+INFO     : Packing virtual memory usage: begin = 59.496 MB, end = 330.42 MB, delta = 270.924 MB [FlowMsg::VMUsage]
+INFO     :     Packing peak virtual memory usage = 330.428 MB [FlowMsg::VMUsage::Peak]
+INFO     : Packing resident set memory usage: begin = 64.996 MB, end = 333.08 MB, delta = 268.084 MB [FlowMsg::RSSUsage]
+INFO     :     Packing peak resident set memory usage = 333.08 MB [FlowMsg::RSSUsage::Peak]
+WARNING  : No ports matched 'clk_in'
+WARNING  : [SDC C:/Users/13227/Documents/2026_qrs/2D_Rendering_Acceleration/ARC_2DRA/par/ddr_demo_ti60/sdc/ddr3.sdc:1] No valid pin(s) found for clock
+WARNING  : [SDC C:/Users/13227/Documents/2026_qrs/2D_Rendering_Acceleration/ARC_2DRA/par/ddr_demo_ti60/sdc/ddr3.sdc:1] Unable to run 'create_clock' constraint due to warnings found
+WARNING  : [SDC C:/Users/13227/Documents/2026_qrs/2D_Rendering_Acceleration/ARC_2DRA/par/ddr_demo_ti60/sdc/ddr3.sdc:6] No valid object(s) found for 'axi_clk'
+WARNING  : [SDC C:/Users/13227/Documents/2026_qrs/2D_Rendering_Acceleration/ARC_2DRA/par/ddr_demo_ti60/sdc/ddr3.sdc:6] No valid pin(s) found for clock
+WARNING  : [SDC C:/Users/13227/Documents/2026_qrs/2D_Rendering_Acceleration/ARC_2DRA/par/ddr_demo_ti60/sdc/ddr3.sdc:6] Unable to run 'create_clock' constraint due to warnings found
+WARNING  : [SDC C:/Users/13227/Documents/2026_qrs/2D_Rendering_Acceleration/ARC_2DRA/par/ddr_demo_ti60/sdc/ddr3.sdc:8] No valid object(s) found for 'peripheralClk'
+WARNING  : [SDC C:/Users/13227/Documents/2026_qrs/2D_Rendering_Acceleration/ARC_2DRA/par/ddr_demo_ti60/sdc/ddr3.sdc:8] No valid pin(s) found for clock
+WARNING  : [SDC C:/Users/13227/Documents/2026_qrs/2D_Rendering_Acceleration/ARC_2DRA/par/ddr_demo_ti60/sdc/ddr3.sdc:8] Unable to run 'create_clock' constraint due to warnings found
+WARNING  : [SDC C:/Users/13227/Documents/2026_qrs/2D_Rendering_Acceleration/ARC_2DRA/par/ddr_demo_ti60/sdc/ddr3.sdc:10] set_clock_groups: Defaulting to -exclusive since none of the required option was specified
+WARNING  : [SDC C:/Users/13227/Documents/2026_qrs/2D_Rendering_Acceleration/ARC_2DRA/par/ddr_demo_ti60/sdc/ddr3.sdc:11] set_clock_groups: Defaulting to -exclusive since none of the required option was specified
+WARNING  : [SDC C:/Users/13227/Documents/2026_qrs/2D_Rendering_Acceleration/ARC_2DRA/par/ddr_demo_ti60/sdc/ddr3.sdc:12] set_clock_groups: Defaulting to -exclusive since none of the required option was specified
+WARNING  : [SDC C:/Users/13227/Documents/2026_qrs/2D_Rendering_Acceleration/ARC_2DRA/par/ddr_demo_ti60/sdc/ddr3.sdc:13] set_clock_groups: Defaulting to -exclusive since none of the required option was specified
+WARNING  : [SDC C:/Users/13227/Documents/2026_qrs/2D_Rendering_Acceleration/ARC_2DRA/par/ddr_demo_ti60/sdc/ddr3.sdc:36] No clocks matched 'jtag_inst1_TCK'
+WARNING  : [SDC C:/Users/13227/Documents/2026_qrs/2D_Rendering_Acceleration/ARC_2DRA/par/ddr_demo_ti60/sdc/ddr3.sdc:36] set_output_delay: No valid clock found for -clock
+WARNING  : [SDC C:/Users/13227/Documents/2026_qrs/2D_Rendering_Acceleration/ARC_2DRA/par/ddr_demo_ti60/sdc/ddr3.sdc:36] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING  : [SDC C:/Users/13227/Documents/2026_qrs/2D_Rendering_Acceleration/ARC_2DRA/par/ddr_demo_ti60/sdc/ddr3.sdc:37] No clocks matched 'jtag_inst1_TCK'
+WARNING  : [SDC C:/Users/13227/Documents/2026_qrs/2D_Rendering_Acceleration/ARC_2DRA/par/ddr_demo_ti60/sdc/ddr3.sdc:37] set_output_delay: No valid clock found for -clock
+WARNING  : [SDC C:/Users/13227/Documents/2026_qrs/2D_Rendering_Acceleration/ARC_2DRA/par/ddr_demo_ti60/sdc/ddr3.sdc:37] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING  : [SDC C:/Users/13227/Documents/2026_qrs/2D_Rendering_Acceleration/ARC_2DRA/par/ddr_demo_ti60/sdc/ddr3.sdc:38] No clocks matched 'jtag_inst1_TCK'
+WARNING  : [SDC C:/Users/13227/Documents/2026_qrs/2D_Rendering_Acceleration/ARC_2DRA/par/ddr_demo_ti60/sdc/ddr3.sdc:38] set_input_delay: No valid clock found for -clock
+WARNING  : [SDC C:/Users/13227/Documents/2026_qrs/2D_Rendering_Acceleration/ARC_2DRA/par/ddr_demo_ti60/sdc/ddr3.sdc:38] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : [SDC C:/Users/13227/Documents/2026_qrs/2D_Rendering_Acceleration/ARC_2DRA/par/ddr_demo_ti60/sdc/ddr3.sdc:39] No clocks matched 'jtag_inst1_TCK'
+WARNING  : [SDC C:/Users/13227/Documents/2026_qrs/2D_Rendering_Acceleration/ARC_2DRA/par/ddr_demo_ti60/sdc/ddr3.sdc:39] set_input_delay: No valid clock found for -clock
+WARNING  : [SDC C:/Users/13227/Documents/2026_qrs/2D_Rendering_Acceleration/ARC_2DRA/par/ddr_demo_ti60/sdc/ddr3.sdc:39] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : No ports matched 'jtag_inst1_RESET'
+WARNING  : [SDC C:/Users/13227/Documents/2026_qrs/2D_Rendering_Acceleration/ARC_2DRA/par/ddr_demo_ti60/sdc/ddr3.sdc:40] No clocks matched 'jtag_inst1_TCK'
+WARNING  : [SDC C:/Users/13227/Documents/2026_qrs/2D_Rendering_Acceleration/ARC_2DRA/par/ddr_demo_ti60/sdc/ddr3.sdc:40] set_input_delay: No valid clock found for -clock
+WARNING  : [SDC C:/Users/13227/Documents/2026_qrs/2D_Rendering_Acceleration/ARC_2DRA/par/ddr_demo_ti60/sdc/ddr3.sdc:40] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : No ports matched 'jtag_inst1_RESET'
+WARNING  : [SDC C:/Users/13227/Documents/2026_qrs/2D_Rendering_Acceleration/ARC_2DRA/par/ddr_demo_ti60/sdc/ddr3.sdc:41] No clocks matched 'jtag_inst1_TCK'
+WARNING  : [SDC C:/Users/13227/Documents/2026_qrs/2D_Rendering_Acceleration/ARC_2DRA/par/ddr_demo_ti60/sdc/ddr3.sdc:41] set_input_delay: No valid clock found for -clock
+WARNING  : [SDC C:/Users/13227/Documents/2026_qrs/2D_Rendering_Acceleration/ARC_2DRA/par/ddr_demo_ti60/sdc/ddr3.sdc:41] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : [SDC C:/Users/13227/Documents/2026_qrs/2D_Rendering_Acceleration/ARC_2DRA/par/ddr_demo_ti60/sdc/ddr3.sdc:42] No clocks matched 'jtag_inst1_TCK'
+WARNING  : [SDC C:/Users/13227/Documents/2026_qrs/2D_Rendering_Acceleration/ARC_2DRA/par/ddr_demo_ti60/sdc/ddr3.sdc:42] set_input_delay: No valid clock found for -clock
+WARNING  : [SDC C:/Users/13227/Documents/2026_qrs/2D_Rendering_Acceleration/ARC_2DRA/par/ddr_demo_ti60/sdc/ddr3.sdc:42] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : [SDC C:/Users/13227/Documents/2026_qrs/2D_Rendering_Acceleration/ARC_2DRA/par/ddr_demo_ti60/sdc/ddr3.sdc:43] No clocks matched 'jtag_inst1_TCK'
+WARNING  : [SDC C:/Users/13227/Documents/2026_qrs/2D_Rendering_Acceleration/ARC_2DRA/par/ddr_demo_ti60/sdc/ddr3.sdc:43] set_input_delay: No valid clock found for -clock
+WARNING  : [SDC C:/Users/13227/Documents/2026_qrs/2D_Rendering_Acceleration/ARC_2DRA/par/ddr_demo_ti60/sdc/ddr3.sdc:43] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : No ports matched 'jtag_inst1_UPDATE'
+WARNING  : [SDC C:/Users/13227/Documents/2026_qrs/2D_Rendering_Acceleration/ARC_2DRA/par/ddr_demo_ti60/sdc/ddr3.sdc:44] No clocks matched 'jtag_inst1_TCK'
+WARNING  : [SDC C:/Users/13227/Documents/2026_qrs/2D_Rendering_Acceleration/ARC_2DRA/par/ddr_demo_ti60/sdc/ddr3.sdc:44] set_input_delay: No valid clock found for -clock
+WARNING  : [SDC C:/Users/13227/Documents/2026_qrs/2D_Rendering_Acceleration/ARC_2DRA/par/ddr_demo_ti60/sdc/ddr3.sdc:44] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : No ports matched 'jtag_inst1_UPDATE'
+WARNING  : [SDC C:/Users/13227/Documents/2026_qrs/2D_Rendering_Acceleration/ARC_2DRA/par/ddr_demo_ti60/sdc/ddr3.sdc:45] No clocks matched 'jtag_inst1_TCK'
+WARNING  : [SDC C:/Users/13227/Documents/2026_qrs/2D_Rendering_Acceleration/ARC_2DRA/par/ddr_demo_ti60/sdc/ddr3.sdc:45] set_input_delay: No valid clock found for -clock
+WARNING  : [SDC C:/Users/13227/Documents/2026_qrs/2D_Rendering_Acceleration/ARC_2DRA/par/ddr_demo_ti60/sdc/ddr3.sdc:45] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : [SDC C:/Users/13227/Documents/2026_qrs/2D_Rendering_Acceleration/ARC_2DRA/par/ddr_demo_ti60/sdc/ddr3.sdc:46] No clocks matched 'jtag_inst1_TCK'
+WARNING  : [SDC C:/Users/13227/Documents/2026_qrs/2D_Rendering_Acceleration/ARC_2DRA/par/ddr_demo_ti60/sdc/ddr3.sdc:46] set_input_delay: No valid clock found for -clock
+WARNING  : [SDC C:/Users/13227/Documents/2026_qrs/2D_Rendering_Acceleration/ARC_2DRA/par/ddr_demo_ti60/sdc/ddr3.sdc:46] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : [SDC C:/Users/13227/Documents/2026_qrs/2D_Rendering_Acceleration/ARC_2DRA/par/ddr_demo_ti60/sdc/ddr3.sdc:47] No clocks matched 'jtag_inst1_TCK'
+WARNING  : [SDC C:/Users/13227/Documents/2026_qrs/2D_Rendering_Acceleration/ARC_2DRA/par/ddr_demo_ti60/sdc/ddr3.sdc:47] set_input_delay: No valid clock found for -clock
+WARNING  : [SDC C:/Users/13227/Documents/2026_qrs/2D_Rendering_Acceleration/ARC_2DRA/par/ddr_demo_ti60/sdc/ddr3.sdc:47] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : [SDC C:/Users/13227/Documents/2026_qrs/2D_Rendering_Acceleration/ARC_2DRA/par/ddr_demo_ti60/sdc/ddr3.sdc:57] Missing value for option -period, please type 'create_clock -help' for usage info
+WARNING  : [SDC C:/Users/13227/Documents/2026_qrs/2D_Rendering_Acceleration/ARC_2DRA/par/ddr_demo_ti60/sdc/ddr3.sdc:57] Unable to run 'create_clock' constraint due to warnings found
+WARNING  : No ports matched 'ddr_addr[14]'
+WARNING  : [SDC C:/Users/13227/Documents/2026_qrs/2D_Rendering_Acceleration/ARC_2DRA/par/ddr_demo_ti60/sdc/ddr3.sdc:86] set_output_delay: No valid output port(s) found
+WARNING  : [SDC C:/Users/13227/Documents/2026_qrs/2D_Rendering_Acceleration/ARC_2DRA/par/ddr_demo_ti60/sdc/ddr3.sdc:86] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING  : No ports matched 'ddr_addr[14]'
+WARNING  : [SDC C:/Users/13227/Documents/2026_qrs/2D_Rendering_Acceleration/ARC_2DRA/par/ddr_demo_ti60/sdc/ddr3.sdc:87] set_output_delay: No valid output port(s) found
+WARNING  : [SDC C:/Users/13227/Documents/2026_qrs/2D_Rendering_Acceleration/ARC_2DRA/par/ddr_demo_ti60/sdc/ddr3.sdc:87] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING  : No ports matched 'ddr_addr[15]'
+WARNING  : [SDC C:/Users/13227/Documents/2026_qrs/2D_Rendering_Acceleration/ARC_2DRA/par/ddr_demo_ti60/sdc/ddr3.sdc:88] set_output_delay: No valid output port(s) found
+WARNING  : [SDC C:/Users/13227/Documents/2026_qrs/2D_Rendering_Acceleration/ARC_2DRA/par/ddr_demo_ti60/sdc/ddr3.sdc:88] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING  : No ports matched 'ddr_addr[15]'
+WARNING  : [SDC C:/Users/13227/Documents/2026_qrs/2D_Rendering_Acceleration/ARC_2DRA/par/ddr_demo_ti60/sdc/ddr3.sdc:89] set_output_delay: No valid output port(s) found
+WARNING  : [SDC C:/Users/13227/Documents/2026_qrs/2D_Rendering_Acceleration/ARC_2DRA/par/ddr_demo_ti60/sdc/ddr3.sdc:89] Unable to run 'set_output_delay' constraint due to warnings found
+INFO     : SDC file 'C:/Users/13227/Documents/2026_qrs/2D_Rendering_Acceleration/ARC_2DRA/par/ddr_demo_ti60/sdc/ddr3.sdc' parsed successfully.
+INFO     : Reading core interface constraints file "C:/Users/13227/Documents/2026_qrs/2D_Rendering_Acceleration/ARC_2DRA/par/ddr_demo_ti60/outflow/ddr_demo_ti60.interface.csv" [DBMsg::CoreInterfaceConstraintsFileReading]
+INFO     : Successfully read core interface constraints file "C:/Users/13227/Documents/2026_qrs/2D_Rendering_Acceleration/ARC_2DRA/par/ddr_demo_ti60/outflow/ddr_demo_ti60.interface.csv" [DBMsg::CoreInterfaceConstraintsFileLoadSuccess]
+INFO     : Counting 2 clocks that are not assigned to clock resources as global clocks.
+WARNING  : Synchronizer chain starting at cell u_sapphire_soc/u_EfxSapphireSoc/system_ddr_ddrLogic_userAdapters_0_bridge/io_input_ar_queue/pushToPopGray_buffercc/buffers_0[1]~FF is driven by a non-sequential source GND:O [FlowMsg::SyncHeadDrivenByNonSeq]
+WARNING  : Synchronizer chain starting at cell u_sapphire_soc/u_EfxSapphireSoc/system_ddr_ddrLogic_userAdapters_0_bridge/io_input_w_queue/pushToPopGray_buffercc/buffers_0[3]~FF is driven by a non-sequential source GND:O [FlowMsg::SyncHeadDrivenByNonSeq]
+WARNING  : Synchronizer chain starting at cell u_sapphire_soc/u_EfxSapphireSoc/system_hardJtag_debug_logic_jtagBridge/system_rsp_payload_data[0]~FF is driven by a non-sequential source LUT__108555:O [FlowMsg::SyncHeadDrivenByNonSeq]
+WARNING  : Synchronizer chain starting at cell u_ddr3_top/u_phy_top/u_ddr_phy_if/ddr_wren_r3~FF is driven by a non-sequential source u_ddr3_top/u_phy_top/u_ddr_phy_if/i181_2:Q [FlowMsg::SyncHeadDrivenByNonSeq]
+WARNING  : Synchronizer chain starting at cell u_sapphire_soc/u_EfxSapphireSoc/debugCd_logic_outputReset_asyncAssertSyncDeassert_buffercc/buffers_0~FF is driven by a non-sequential source GND:O [FlowMsg::SyncHeadDrivenByNonSeq]
+WARNING  : Synchronizer chain starting at cell u_sapphire_soc/u_EfxSapphireSoc/system_hardJtag_debug_logic_jtagBridge/system_rsp_payload_data[4]~FF is driven by a non-sequential source LUT__108557:O [FlowMsg::SyncHeadDrivenByNonSeq]
+WARNING  : Synchronizer chain starting at cell u_sapphire_soc/u_EfxSapphireSoc/system_ddr_ddrLogic_userAdapters_0_bridge/io_input_aw_queue/pushToPopGray_buffercc/buffers_0[2]~FF is driven by a non-sequential source GND:O [FlowMsg::SyncHeadDrivenByNonSeq]
+WARNING  : Synchronizer chain starting at cell u_ddr3_top/u_phy_top/u_ddr_phy_if/u1_cmd_fifo/u_efx_fifo_top/genblk2.rd_rst[0]~FF is driven by a non-sequential source GND:O [FlowMsg::SyncHeadDrivenByNonSeq]
+WARNING  : Synchronizer chain starting at cell u_sapphire_soc/u_EfxSapphireSoc/ddrCd_logic_outputReset_asyncAssertSyncDeassert_buffercc/buffers_0~FF is driven by a non-sequential source GND:O [FlowMsg::SyncHeadDrivenByNonSeq]
+WARNING  : Synchronizer chain starting at cell u_sapphire_soc/u_EfxSapphireSoc/userInterruptA_buffercc/i7_2 is driven by a non-sequential source LUT__101518:O [FlowMsg::SyncHeadDrivenByNonSeq]
+WARNING  : Synchronizer chain starting at cell u_sapphire_soc/u_EfxSapphireSoc/system_ddr_ddrLogic_userAdapters_0_bridge/io_input_w_queue/pushToPopGray_buffercc/buffers_0[0]~FF is driven by a non-sequential source GND:O [FlowMsg::SyncHeadDrivenByNonSeq]
+WARNING  : Synchronizer chain starting at cell u_sapphire_soc/u_EfxSapphireSoc/system_ddr_ddrLogic_userAdapters_0_bridge/io_input_ar_queue/pushToPopGray_buffercc/buffers_0[3]~FF is driven by a non-sequential source GND:O [FlowMsg::SyncHeadDrivenByNonSeq]
+WARNING  : Synchronizer chain starting at cell u_sapphire_soc/u_EfxSapphireSoc/io_asyncReset_asyncAssertSyncDeassert_buffercc/buffers_0~FF is driven by a non-sequential source GND:O [FlowMsg::SyncHeadDrivenByNonSeq]
+WARNING  : Synchronizer chain starting at cell u_sapphire_soc/u_EfxSapphireSoc/system_ddr_ddrLogic_userAdapters_0_bridge/io_input_aw_queue/pushToPopGray_buffercc/buffers_0[4]~FF is driven by a non-sequential source GND:O [FlowMsg::SyncHeadDrivenByNonSeq]
+WARNING  : Synchronizer chain starting at cell u_sapphire_soc/u_EfxSapphireSoc/system_uart_0_io_logic/uartCtrl_1/rx/io_rxd_buffercc/buffers_0~FF is driven by a non-sequential source system_uart_0_io_rxd:inpad [FlowMsg::SyncHeadDrivenByNonSeq]
+WARNING  : Synchronizer chain starting at cell u_ddr3_top/u_phy_top/u_ddr_phy_if/u1_cmd_fifo/u_efx_fifo_top/genblk2.wr_rst[0]~FF is driven by a non-sequential source GND:O [FlowMsg::SyncHeadDrivenByNonSeq]
+WARNING  : Synchronizer chain starting at cell u_sapphire_soc/u_EfxSapphireSoc/system_ddr_ddrLogic_userAdapters_0_bridge/io_input_ar_queue/pushToPopGray_buffercc/buffers_0[0]~FF is driven by a non-sequential source GND:O [FlowMsg::SyncHeadDrivenByNonSeq]
+WARNING  : Synchronizer chain starting at cell u_sapphire_soc/u_EfxSapphireSoc/system_ddr_ddrLogic_userAdapters_0_bridge/io_input_w_queue/pushToPopGray_buffercc/buffers_0[2]~FF is driven by a non-sequential source GND:O [FlowMsg::SyncHeadDrivenByNonSeq]
+WARNING  : Synchronizer chain starting at cell u_sapphire_soc/u_EfxSapphireSoc/system_hardJtag_debug_logic_jtagBridge/system_rsp_valid~FF is driven by a non-sequential source GND:O [FlowMsg::SyncHeadDrivenByNonSeq]
+WARNING  : Synchronizer chain starting at cell u_sapphire_soc/u_EfxSapphireSoc/system_hardJtag_debug_logic_jtagBridge/system_rsp_payload_data[3]~FF is driven by a non-sequential source LUT__108556:O [FlowMsg::SyncHeadDrivenByNonSeq]
+WARNING  : Synchronizer chain starting at cell u_ddr3_top/u_phy_top/u_ddr_phy_if/u2_ctl_fifo/u_efx_fifo_top/genblk2.rd_rst[0]~FF is driven by a non-sequential source GND:O [FlowMsg::SyncHeadDrivenByNonSeq]
+WARNING  : Synchronizer chain starting at cell u_sapphire_soc/u_EfxSapphireSoc/system_ddr_ddrLogic_userAdapters_0_bridge/io_input_aw_queue/pushToPopGray_buffercc/buffers_0[1]~FF is driven by a non-sequential source GND:O [FlowMsg::SyncHeadDrivenByNonSeq]
+WARNING  : Synchronizer chain starting at cell u_ddr3_top/u_phy_top/u_ddr_phy_if/i530_2 is driven by a non-sequential source LUT__101371:O [FlowMsg::SyncHeadDrivenByNonSeq]
+WARNING  : Synchronizer chain starting at cell u_sapphire_soc/u_EfxSapphireSoc/system_ddr_ddrLogic_userAdapters_0_bridge/io_input_ar_queue/system_ddr_ddrLogic_userAdapters_0_bridge_toplevel_io_ddrMasters_0_reset_asyncAssertSyncDeassert_buffercc/buffers_0~FF is driven by a non-sequential source GND:O [FlowMsg::SyncHeadDrivenByNonSeq]
+WARNING  : Synchronizer chain starting at cell u_ddr3_top/u_phy_top/u_ddr_phy_if/u3_dout_fifo/u_efx_fifo_top/genblk2.rd_rst[0]~FF is driven by a non-sequential source GND:O [FlowMsg::SyncHeadDrivenByNonSeq]
+WARNING  : Synchronizer chain starting at cell u_ddr3_top/u_phy_top/u_ddr_phy_if/u4_din_fifo/u_efx_fifo_top/genblk2.rd_rst[0]~FF is driven by a non-sequential source GND:O [FlowMsg::SyncHeadDrivenByNonSeq]
+WARNING  : Synchronizer chain starting at cell u_sapphire_soc/u_EfxSapphireSoc/system_ddr_ddrLogic_userAdapters_0_bridge/io_input_ar_queue/pushToPopGray_buffercc/buffers_0[2]~FF is driven by a non-sequential source GND:O [FlowMsg::SyncHeadDrivenByNonSeq]
+WARNING  : Synchronizer chain starting at cell u_sapphire_soc/u_EfxSapphireSoc/system_hardJtag_debug_logic_jtagBridge/system_rsp_payload_data[2]~FF is driven by a non-sequential source LUT__108507:O [FlowMsg::SyncHeadDrivenByNonSeq]
+WARNING  : Synchronizer chain starting at cell u_ddr3_top/u_phy_top/u_ddr_phy_if/dq_check_en_r3~FF is driven by a non-sequential source u_ddr3_top/u_phy_top/u_ddr_phy_if/i356_2:Q [FlowMsg::SyncHeadDrivenByNonSeq]
+WARNING  : Synchronizer chain starting at cell u_sapphire_soc/u_EfxSapphireSoc/system_ddr_ddrLogic_cc_fifo/io_input_cmd_queue/system_ddr_ddrLogic_cc_fifo_toplevel_systemCd_logic_outputReset_asyncAssertSyncDeassert_buffercc/buffers_0~FF is driven by a non-sequential source GND:O [FlowMsg::SyncHeadDrivenByNonSeq]
+WARNING  : Synchronizer chain starting at cell u_sapphire_soc/u_EfxSapphireSoc/system_ddr_ddrLogic_userAdapters_0_bridge/io_input_w_queue/pushToPopGray_buffercc/buffers_0[4]~FF is driven by a non-sequential source GND:O [FlowMsg::SyncHeadDrivenByNonSeq]
+WARNING  : Synchronizer chain starting at cell u_ddr3_top/u_phy_top/u_ddr_phy_if/i181_2 is driven by a non-sequential source LUT__101299:O [FlowMsg::SyncHeadDrivenByNonSeq]
+WARNING  : Synchronizer chain starting at cell u_ddr3_top/u_phy_top/u_ddr_phy_if/u2_ctl_fifo/u_efx_fifo_top/genblk2.wr_rst[0]~FF is driven by a non-sequential source GND:O [FlowMsg::SyncHeadDrivenByNonSeq]
+WARNING  : Synchronizer chain starting at cell u_sapphire_soc/u_EfxSapphireSoc/system_ddr_ddrLogic_userAdapters_0_bridge/io_input_aw_queue/pushToPopGray_buffercc/buffers_0[3]~FF is driven by a non-sequential source GND:O [FlowMsg::SyncHeadDrivenByNonSeq]
+WARNING  : Synchronizer chain starting at cell u_sapphire_soc/u_EfxSapphireSoc/system_ddr_ddrLogic_userAdapters_0_bridge/io_input_w_queue/pushToPopGray_buffercc/buffers_0[1]~FF is driven by a non-sequential source GND:O [FlowMsg::SyncHeadDrivenByNonSeq]
+WARNING  : Synchronizer chain starting at cell u_ddr3_top/u_phy_top/u_ddr_phy_if/ddr_rden_r3~FF is driven by a non-sequential source u_ddr3_top/u_phy_top/u_ddr_phy_if/i530_2:Q [FlowMsg::SyncHeadDrivenByNonSeq]
+WARNING  : Synchronizer chain starting at cell u_sapphire_soc/u_EfxSapphireSoc/system_hardJtag_debug_logic_jtagBridge/system_rsp_payload_data[1]~FF is driven by a non-sequential source LUT__108510:O [FlowMsg::SyncHeadDrivenByNonSeq]
+WARNING  : Synchronizer chain starting at cell u_sapphire_soc/u_EfxSapphireSoc/system_hardJtag_debug_logic_jtagBridge/system_rsp_payload_error~FF is driven by a non-sequential source GND:O [FlowMsg::SyncHeadDrivenByNonSeq]
+WARNING  : Synchronizer chain starting at cell u_ddr3_top/u_phy_top/u_ddr_phy_if/u4_din_fifo/u_efx_fifo_top/genblk2.wr_rst[0]~FF is driven by a non-sequential source GND:O [FlowMsg::SyncHeadDrivenByNonSeq]
+WARNING  : Synchronizer chain starting at cell u_ddr3_top/u_phy_top/u_ddr_phy_if/u3_dout_fifo/u_efx_fifo_top/genblk2.wr_rst[0]~FF is driven by a non-sequential source GND:O [FlowMsg::SyncHeadDrivenByNonSeq]
+WARNING  : Synchronizer chain starting at cell u_sapphire_soc/u_EfxSapphireSoc/system_cores_0_debugReset_asyncAssertSyncDeassert_buffercc/buffers_0~FF is driven by a non-sequential source GND:O [FlowMsg::SyncHeadDrivenByNonSeq]
+WARNING  : Synchronizer chain starting at cell u_sapphire_soc/u_EfxSapphireSoc/system_ddr_ddrLogic_userAdapters_0_bridge/io_input_ar_queue/pushToPopGray_buffercc/buffers_0[4]~FF is driven by a non-sequential source GND:O [FlowMsg::SyncHeadDrivenByNonSeq]
+WARNING  : Synchronizer chain starting at cell u_sapphire_soc/u_EfxSapphireSoc/system_ddr_ddrLogic_cc_fifo/io_output_rsp_queue/system_ddr_ddrLogic_cc_fifo_toplevel_ddrCd_logic_outputReset_asyncAssertSyncDeassert_buffercc/buffers_0~FF is driven by a non-sequential source GND:O [FlowMsg::SyncHeadDrivenByNonSeq]
+WARNING  : Synchronizer chain starting at cell u_sapphire_soc/u_EfxSapphireSoc/system_ddr_ddrLogic_userAdapters_0_bridge/io_input_aw_queue/pushToPopGray_buffercc/buffers_0[0]~FF is driven by a non-sequential source GND:O [FlowMsg::SyncHeadDrivenByNonSeq]
+INFO     : Starting Global Placer with 10 threads ...
+            ----------     -------  --------------     -------
+             Iteration       WHPWL Worst Slack (ps) Convergence
+            ----------     -------  --------------     -------
+INFO     :           1    17191120             335         1.3%
+INFO     :           2    11660075             332         2.1%
+INFO     :           3     9106685             235         3.8%
+INFO     :           4     6830898             -44         8.5%
+INFO     :           5     4090506             165        15.7%
+INFO     :           6     2725954            -243        27.2%
+INFO     :           7     2235656            -721        37.4%
+INFO     :           8     2097070           -1067        39.2%
+INFO     :           9     1963480           -1239        44.0%
+INFO     :          10     1865368           -1610        44.6%
+INFO     :          11     1807259           -1302        48.0%
+INFO     :          12     1742248            -976        51.7%
+INFO     :          13     1713161           -1593        53.0%
+INFO     :          14     1709054           -1426        53.1%
+INFO     :          15     1687219           -1528        53.4%
+INFO     :          16     1661562           -1529        54.8%
+INFO     :          17     1620796           -1791        58.1%
+INFO     :          18     1613803           -1789        58.7%
+INFO     :          19     1594920           -1844        59.9%
+INFO     :          20     1594520           -1672        60.0%
+INFO     :          21     1570700           -1456        62.0%
+INFO     :          22     1556192           -1538        62.8%
+INFO     :          23     1537234           -1608        65.4%
+INFO     :          24     1528208           -1938        66.7%
+INFO     :          25     1524062           -2421        68.1%
+INFO     :          26     1510595           -2422        70.0%
+INFO     :          27     1498615           -2022        71.7%
+INFO     :          28     1497121           -1785        72.3%
+INFO     :          29     1495885           -1809        73.5%
+INFO     :          30     1499215           -2239        74.4%
+INFO     :          31     1502542           -2193        75.1%
+INFO     :          32     1480707           -2215        78.7%
+INFO     :          33     1467670           -2350        80.3%
+INFO     :          34     1464902           -2274        81.4%
+INFO     :          35     1457289           -2403        82.8%
+INFO     :          36     1454735           -2632        84.2%
+INFO     :          37     1452089           -2398        85.4%
+INFO     :          38     1451848           -2733        86.6%
+INFO     :          39     1451846           -3108        87.7%
+INFO     :          40     1450356           -3189        88.8%
+INFO     :          41     1453255           -3283        89.9%
+INFO     :          42     1451572           -2986        91.0%
+INFO     :          43     1454229           -3022        92.3%
+INFO     :          44     1460109           -2879        92.9%
+INFO     :          45     1461464           -2950        93.5%
+INFO     :          46     1466185           -2923        94.0%
+INFO     :          47     1466804           -2842        94.5%
+INFO     :          48     1469934           -2948        95.3%
+INFO     :          49     1426614           -3040        95.7%
+INFO     :          50     1444496           -3359        95.7%
+INFO     :          51     1447181           -3144        97.3%
+INFO     :          52     1456964           -3026        97.3%
+INFO     :          53     1503286           -3146        97.3%
+INFO     :          54     1492870           -2983        97.8%
+INFO     :          55     1496587           -3331        98.2%
+INFO     : GP: best_placement: wpd: 11637.9
+INFO     : Starting Annealer
+            ----------     -------  --------------     -------
+             Iteration       WHPWL  Delay Max (ps)     R Limit
+            ----------     -------  --------------     -------
+INFO     :           0      783997           13457        30.0
+INFO     :           1      845776           11064        28.5
+INFO     :           2      802192           10405        26.5
+INFO     :           3      770915           10464        24.5
+INFO     :           4      749596           10300        22.6
+INFO     :           5      734046           10327        20.7
+INFO     :           6      722560           10339        19.0
+INFO     :           7      711994           10555        17.4
+INFO     :           8      705085           10294        15.9
+INFO     :           9      697215           10230        14.6
+INFO     :          10      692752           10240        13.3
+INFO     :          11      684571            1830        12.1
+INFO     :          12      678883            1830        11.1
+INFO     :          13      673522            1910        10.1
+INFO     :          14      668846            2133         9.2
+INFO     :          15      663851            1811         8.4
+INFO     :          16      658465            1846         7.7
+INFO     :          17      655274            1838         7.0
+INFO     :          18      652937            1811         6.4
+INFO     :          19      648898            1987         5.8
+INFO     :          20      644507            1809         5.3
+INFO     :          21      641544            1790         4.8
+INFO     :          22      638912            1790         4.4
+INFO     :          23      636029            1813         4.0
+INFO     :          24      633812            1812         3.7
+INFO     :          25      630892            1818         3.3
+INFO     :          26      628505            1910         3.0
+INFO     :          27      626616            1865         2.8
+INFO     :          28      625075            1818         2.5
+INFO     :          29      623722            1875         2.3
+INFO     :          30      621541            1889         2.1
+INFO     :          31      620151            1839         1.9
+INFO     :          32      619040            1895         1.8
+INFO     :          33      618093            1876         1.6
+INFO     :          34      617577            1831         1.5
+INFO     :          35      616666            1927         1.4
+INFO     :          36      615339            1882         1.3
+INFO     :          37      614270            1923         1.2
+INFO     :          38      613803            1923         1.1
+INFO     :          39      612935            2023         1.0
+INFO     :          40      611982            2118         1.0
+INFO     : DP: best_placement: wpd: 21.3421
+INFO     : Starting incremental timing annealer
+INFO     : Starting incremental timing quench 1 with temperature 0.1 and 0.2 moves per pass
+            ----------     -------  --------------     -------
+             Iteration       WHPWL  Delay Max (ps)     R Limit
+            ----------     -------  --------------     -------
+INFO     :           0      611982            2118        30.0
+INFO     :           1      645742            1807        27.1
+INFO     :           2      657333            1794        24.5
+INFO     :           3      660072            1765        22.1
+INFO     :           4      662602            1765        19.9
+INFO     :           5      662829            1765        17.9
+INFO     :           6      663371            1757        16.1
+INFO     :           7      662319            1757        14.5
+INFO     :           8      661874            1757        13.1
+INFO     :           9      660942            1757        11.8
+INFO     :          10      660449            1757        10.6
+INFO     :          11      659292            1757         9.6
+INFO     :          12      658236            1757         8.6
+INFO     :          13      657622            1757         7.8
+INFO     :          14      656600            1757         7.0
+INFO     :          15      654403            1757         6.3
+INFO     :          16      653305            1757         5.7
+INFO     :          17      653567            1757         5.1
+INFO     :          18      648788            1733         4.6
+INFO     :          19      643572            1733         4.2
+INFO     : DP: best_placement: wpd: -1
+INFO     : Placement successful: 38890 cells are placed
+INFO     : Peak congestion smeared over 4x4 of the chip is 1.37816 at 168,174
+INFO     : Peak congestion smeared over 1/16 of the chip is 1.00135 at 195,151
+INFO     : Peak congestion smeared over 1/4 of the chip is 0.633857 at 173,194
+INFO     : Congestion-weighted HPWL per net: 24.5903
+INFO     : Post-placement cluster-level checks is successful
+INFO     : Post-placement primitive-level checks is successful
+INFO     : Placement took 72.3307357 seconds [FlowMsg::StageDuration]
+INFO     :     Placement took 521.453125 seconds (approximately) in total CPU time [FlowMsg::StageDuration::CPUTime]
+INFO     : Placement virtual memory usage: begin = 102.42 MB, end = 275.904 MB, delta = 173.484 MB [FlowMsg::VMUsage]
+INFO     :     Placement peak virtual memory usage = 425.984 MB [FlowMsg::VMUsage::Peak]
+INFO     : Placement resident set memory usage: begin = 117.584 MB, end = 296.524 MB, delta = 178.94 MB [FlowMsg::RSSUsage]
+INFO     :     Placement peak resident set memory usage = 446.348 MB [FlowMsg::RSSUsage::Peak]
+WARNING  : No ports matched 'clk_in'
+WARNING  : [SDC C:/Users/13227/Documents/2026_qrs/2D_Rendering_Acceleration/ARC_2DRA/par/ddr_demo_ti60/sdc/ddr3.sdc:1] No valid pin(s) found for clock
+WARNING  : [SDC C:/Users/13227/Documents/2026_qrs/2D_Rendering_Acceleration/ARC_2DRA/par/ddr_demo_ti60/sdc/ddr3.sdc:1] Unable to run 'create_clock' constraint due to warnings found
+WARNING  : [SDC C:/Users/13227/Documents/2026_qrs/2D_Rendering_Acceleration/ARC_2DRA/par/ddr_demo_ti60/sdc/ddr3.sdc:6] No valid object(s) found for 'axi_clk'
+WARNING  : [SDC C:/Users/13227/Documents/2026_qrs/2D_Rendering_Acceleration/ARC_2DRA/par/ddr_demo_ti60/sdc/ddr3.sdc:6] No valid pin(s) found for clock
+WARNING  : [SDC C:/Users/13227/Documents/2026_qrs/2D_Rendering_Acceleration/ARC_2DRA/par/ddr_demo_ti60/sdc/ddr3.sdc:6] Unable to run 'create_clock' constraint due to warnings found
+WARNING  : [SDC C:/Users/13227/Documents/2026_qrs/2D_Rendering_Acceleration/ARC_2DRA/par/ddr_demo_ti60/sdc/ddr3.sdc:8] No valid object(s) found for 'peripheralClk'
+WARNING  : [SDC C:/Users/13227/Documents/2026_qrs/2D_Rendering_Acceleration/ARC_2DRA/par/ddr_demo_ti60/sdc/ddr3.sdc:8] No valid pin(s) found for clock
+WARNING  : [SDC C:/Users/13227/Documents/2026_qrs/2D_Rendering_Acceleration/ARC_2DRA/par/ddr_demo_ti60/sdc/ddr3.sdc:8] Unable to run 'create_clock' constraint due to warnings found
+WARNING  : [SDC C:/Users/13227/Documents/2026_qrs/2D_Rendering_Acceleration/ARC_2DRA/par/ddr_demo_ti60/sdc/ddr3.sdc:10] set_clock_groups: Defaulting to -exclusive since none of the required option was specified
+WARNING  : [SDC C:/Users/13227/Documents/2026_qrs/2D_Rendering_Acceleration/ARC_2DRA/par/ddr_demo_ti60/sdc/ddr3.sdc:11] set_clock_groups: Defaulting to -exclusive since none of the required option was specified
+WARNING  : [SDC C:/Users/13227/Documents/2026_qrs/2D_Rendering_Acceleration/ARC_2DRA/par/ddr_demo_ti60/sdc/ddr3.sdc:12] set_clock_groups: Defaulting to -exclusive since none of the required option was specified
+WARNING  : [SDC C:/Users/13227/Documents/2026_qrs/2D_Rendering_Acceleration/ARC_2DRA/par/ddr_demo_ti60/sdc/ddr3.sdc:13] set_clock_groups: Defaulting to -exclusive since none of the required option was specified
+WARNING  : [SDC C:/Users/13227/Documents/2026_qrs/2D_Rendering_Acceleration/ARC_2DRA/par/ddr_demo_ti60/sdc/ddr3.sdc:36] No clocks matched 'jtag_inst1_TCK'
+WARNING  : [SDC C:/Users/13227/Documents/2026_qrs/2D_Rendering_Acceleration/ARC_2DRA/par/ddr_demo_ti60/sdc/ddr3.sdc:36] set_output_delay: No valid clock found for -clock
+WARNING  : [SDC C:/Users/13227/Documents/2026_qrs/2D_Rendering_Acceleration/ARC_2DRA/par/ddr_demo_ti60/sdc/ddr3.sdc:36] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING  : [SDC C:/Users/13227/Documents/2026_qrs/2D_Rendering_Acceleration/ARC_2DRA/par/ddr_demo_ti60/sdc/ddr3.sdc:37] No clocks matched 'jtag_inst1_TCK'
+WARNING  : [SDC C:/Users/13227/Documents/2026_qrs/2D_Rendering_Acceleration/ARC_2DRA/par/ddr_demo_ti60/sdc/ddr3.sdc:37] set_output_delay: No valid clock found for -clock
+WARNING  : [SDC C:/Users/13227/Documents/2026_qrs/2D_Rendering_Acceleration/ARC_2DRA/par/ddr_demo_ti60/sdc/ddr3.sdc:37] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING  : [SDC C:/Users/13227/Documents/2026_qrs/2D_Rendering_Acceleration/ARC_2DRA/par/ddr_demo_ti60/sdc/ddr3.sdc:38] No clocks matched 'jtag_inst1_TCK'
+WARNING  : [SDC C:/Users/13227/Documents/2026_qrs/2D_Rendering_Acceleration/ARC_2DRA/par/ddr_demo_ti60/sdc/ddr3.sdc:38] set_input_delay: No valid clock found for -clock
+WARNING  : [SDC C:/Users/13227/Documents/2026_qrs/2D_Rendering_Acceleration/ARC_2DRA/par/ddr_demo_ti60/sdc/ddr3.sdc:38] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : [SDC C:/Users/13227/Documents/2026_qrs/2D_Rendering_Acceleration/ARC_2DRA/par/ddr_demo_ti60/sdc/ddr3.sdc:39] No clocks matched 'jtag_inst1_TCK'
+WARNING  : [SDC C:/Users/13227/Documents/2026_qrs/2D_Rendering_Acceleration/ARC_2DRA/par/ddr_demo_ti60/sdc/ddr3.sdc:39] set_input_delay: No valid clock found for -clock
+WARNING  : [SDC C:/Users/13227/Documents/2026_qrs/2D_Rendering_Acceleration/ARC_2DRA/par/ddr_demo_ti60/sdc/ddr3.sdc:39] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : No ports matched 'jtag_inst1_RESET'
+WARNING  : [SDC C:/Users/13227/Documents/2026_qrs/2D_Rendering_Acceleration/ARC_2DRA/par/ddr_demo_ti60/sdc/ddr3.sdc:40] No clocks matched 'jtag_inst1_TCK'
+WARNING  : [SDC C:/Users/13227/Documents/2026_qrs/2D_Rendering_Acceleration/ARC_2DRA/par/ddr_demo_ti60/sdc/ddr3.sdc:40] set_input_delay: No valid clock found for -clock
+WARNING  : [SDC C:/Users/13227/Documents/2026_qrs/2D_Rendering_Acceleration/ARC_2DRA/par/ddr_demo_ti60/sdc/ddr3.sdc:40] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : No ports matched 'jtag_inst1_RESET'
+WARNING  : [SDC C:/Users/13227/Documents/2026_qrs/2D_Rendering_Acceleration/ARC_2DRA/par/ddr_demo_ti60/sdc/ddr3.sdc:41] No clocks matched 'jtag_inst1_TCK'
+WARNING  : [SDC C:/Users/13227/Documents/2026_qrs/2D_Rendering_Acceleration/ARC_2DRA/par/ddr_demo_ti60/sdc/ddr3.sdc:41] set_input_delay: No valid clock found for -clock
+WARNING  : [SDC C:/Users/13227/Documents/2026_qrs/2D_Rendering_Acceleration/ARC_2DRA/par/ddr_demo_ti60/sdc/ddr3.sdc:41] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : [SDC C:/Users/13227/Documents/2026_qrs/2D_Rendering_Acceleration/ARC_2DRA/par/ddr_demo_ti60/sdc/ddr3.sdc:42] No clocks matched 'jtag_inst1_TCK'
+WARNING  : [SDC C:/Users/13227/Documents/2026_qrs/2D_Rendering_Acceleration/ARC_2DRA/par/ddr_demo_ti60/sdc/ddr3.sdc:42] set_input_delay: No valid clock found for -clock
+WARNING  : [SDC C:/Users/13227/Documents/2026_qrs/2D_Rendering_Acceleration/ARC_2DRA/par/ddr_demo_ti60/sdc/ddr3.sdc:42] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : [SDC C:/Users/13227/Documents/2026_qrs/2D_Rendering_Acceleration/ARC_2DRA/par/ddr_demo_ti60/sdc/ddr3.sdc:43] No clocks matched 'jtag_inst1_TCK'
+WARNING  : [SDC C:/Users/13227/Documents/2026_qrs/2D_Rendering_Acceleration/ARC_2DRA/par/ddr_demo_ti60/sdc/ddr3.sdc:43] set_input_delay: No valid clock found for -clock
+WARNING  : [SDC C:/Users/13227/Documents/2026_qrs/2D_Rendering_Acceleration/ARC_2DRA/par/ddr_demo_ti60/sdc/ddr3.sdc:43] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : No ports matched 'jtag_inst1_UPDATE'
+WARNING  : [SDC C:/Users/13227/Documents/2026_qrs/2D_Rendering_Acceleration/ARC_2DRA/par/ddr_demo_ti60/sdc/ddr3.sdc:44] No clocks matched 'jtag_inst1_TCK'
+WARNING  : [SDC C:/Users/13227/Documents/2026_qrs/2D_Rendering_Acceleration/ARC_2DRA/par/ddr_demo_ti60/sdc/ddr3.sdc:44] set_input_delay: No valid clock found for -clock
+WARNING  : [SDC C:/Users/13227/Documents/2026_qrs/2D_Rendering_Acceleration/ARC_2DRA/par/ddr_demo_ti60/sdc/ddr3.sdc:44] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : No ports matched 'jtag_inst1_UPDATE'
+WARNING  : [SDC C:/Users/13227/Documents/2026_qrs/2D_Rendering_Acceleration/ARC_2DRA/par/ddr_demo_ti60/sdc/ddr3.sdc:45] No clocks matched 'jtag_inst1_TCK'
+WARNING  : [SDC C:/Users/13227/Documents/2026_qrs/2D_Rendering_Acceleration/ARC_2DRA/par/ddr_demo_ti60/sdc/ddr3.sdc:45] set_input_delay: No valid clock found for -clock
+WARNING  : [SDC C:/Users/13227/Documents/2026_qrs/2D_Rendering_Acceleration/ARC_2DRA/par/ddr_demo_ti60/sdc/ddr3.sdc:45] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : [SDC C:/Users/13227/Documents/2026_qrs/2D_Rendering_Acceleration/ARC_2DRA/par/ddr_demo_ti60/sdc/ddr3.sdc:46] No clocks matched 'jtag_inst1_TCK'
+WARNING  : [SDC C:/Users/13227/Documents/2026_qrs/2D_Rendering_Acceleration/ARC_2DRA/par/ddr_demo_ti60/sdc/ddr3.sdc:46] set_input_delay: No valid clock found for -clock
+WARNING  : [SDC C:/Users/13227/Documents/2026_qrs/2D_Rendering_Acceleration/ARC_2DRA/par/ddr_demo_ti60/sdc/ddr3.sdc:46] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : [SDC C:/Users/13227/Documents/2026_qrs/2D_Rendering_Acceleration/ARC_2DRA/par/ddr_demo_ti60/sdc/ddr3.sdc:47] No clocks matched 'jtag_inst1_TCK'
+WARNING  : [SDC C:/Users/13227/Documents/2026_qrs/2D_Rendering_Acceleration/ARC_2DRA/par/ddr_demo_ti60/sdc/ddr3.sdc:47] set_input_delay: No valid clock found for -clock
+WARNING  : [SDC C:/Users/13227/Documents/2026_qrs/2D_Rendering_Acceleration/ARC_2DRA/par/ddr_demo_ti60/sdc/ddr3.sdc:47] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : [SDC C:/Users/13227/Documents/2026_qrs/2D_Rendering_Acceleration/ARC_2DRA/par/ddr_demo_ti60/sdc/ddr3.sdc:57] Missing value for option -period, please type 'create_clock -help' for usage info
+WARNING  : [SDC C:/Users/13227/Documents/2026_qrs/2D_Rendering_Acceleration/ARC_2DRA/par/ddr_demo_ti60/sdc/ddr3.sdc:57] Unable to run 'create_clock' constraint due to warnings found
+WARNING  : No ports matched 'ddr_addr[14]'
+WARNING  : [SDC C:/Users/13227/Documents/2026_qrs/2D_Rendering_Acceleration/ARC_2DRA/par/ddr_demo_ti60/sdc/ddr3.sdc:86] set_output_delay: No valid output port(s) found
+WARNING  : [SDC C:/Users/13227/Documents/2026_qrs/2D_Rendering_Acceleration/ARC_2DRA/par/ddr_demo_ti60/sdc/ddr3.sdc:86] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING  : No ports matched 'ddr_addr[14]'
+WARNING  : [SDC C:/Users/13227/Documents/2026_qrs/2D_Rendering_Acceleration/ARC_2DRA/par/ddr_demo_ti60/sdc/ddr3.sdc:87] set_output_delay: No valid output port(s) found
+WARNING  : [SDC C:/Users/13227/Documents/2026_qrs/2D_Rendering_Acceleration/ARC_2DRA/par/ddr_demo_ti60/sdc/ddr3.sdc:87] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING  : No ports matched 'ddr_addr[15]'
+WARNING  : [SDC C:/Users/13227/Documents/2026_qrs/2D_Rendering_Acceleration/ARC_2DRA/par/ddr_demo_ti60/sdc/ddr3.sdc:88] set_output_delay: No valid output port(s) found
+WARNING  : [SDC C:/Users/13227/Documents/2026_qrs/2D_Rendering_Acceleration/ARC_2DRA/par/ddr_demo_ti60/sdc/ddr3.sdc:88] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING  : No ports matched 'ddr_addr[15]'
+WARNING  : [SDC C:/Users/13227/Documents/2026_qrs/2D_Rendering_Acceleration/ARC_2DRA/par/ddr_demo_ti60/sdc/ddr3.sdc:89] set_output_delay: No valid output port(s) found
+WARNING  : [SDC C:/Users/13227/Documents/2026_qrs/2D_Rendering_Acceleration/ARC_2DRA/par/ddr_demo_ti60/sdc/ddr3.sdc:89] Unable to run 'set_output_delay' constraint due to warnings found
+INFO     : SDC file 'C:/Users/13227/Documents/2026_qrs/2D_Rendering_Acceleration/ARC_2DRA/par/ddr_demo_ti60/sdc/ddr3.sdc' parsed successfully.
+Maximum possible analyzed clocks frequency
+   Clock Name     Period (ns)  Frequency (MHz)     Edge
+core_clk             9.276        107.805         (R-R)
+sdram_clk            2.004        499.002         (R-R)
+rx_cal_clk           2.244        445.633         (R-R)
+tx_cal_clk           2.155        464.037         (R-R)
+tx_cal_clk_90edge    2.114        473.037         (R-R)
+
+Geomean max period: 2.856
+
+Setup (Max) Clock Relationship
+  Launch Clock      Capture Clock   Constraint (ns)     Slack (ns)          Edge
+core_clk          core_clk               10.000           0.724            (R-R)
+sdram_clk         sdram_clk               2.500           0.496            (R-R)
+rx_cal_clk        rx_cal_clk              2.500           0.256            (R-R)
+tx_cal_clk        tx_cal_clk              2.500           0.345            (R-R)
+tx_cal_clk_90edge tx_cal_clk_90edge       2.500           0.386            (R-R)
+
+Hold (Min) Clock Relationship
+  Launch Clock      Capture Clock   Constraint (ns)     Slack (ns)          Edge
+core_clk          core_clk               0.000            -0.760           (R-R)
+sdram_clk         sdram_clk              0.000            -0.471           (R-R)
+rx_cal_clk        rx_cal_clk             0.000            -0.672           (R-R)
+tx_cal_clk        tx_cal_clk             0.000            -0.316           (R-R)
+tx_cal_clk_90edge tx_cal_clk_90edge      0.000            -0.277           (R-R)
+
+WARNING  : Clock domain between core_clk (rising) and core_clk (rising) may not meet (slack: -0.760 ns) the hold (min) timing requirement
+WARNING  : Clock domain between sdram_clk (rising) and sdram_clk (rising) may not meet (slack: -0.471 ns) the hold (min) timing requirement
+WARNING  : Clock domain between rx_cal_clk (rising) and rx_cal_clk (rising) may not meet (slack: -0.672 ns) the hold (min) timing requirement
+WARNING  : Clock domain between tx_cal_clk (rising) and tx_cal_clk (rising) may not meet (slack: -0.316 ns) the hold (min) timing requirement
+WARNING  : Clock domain between tx_cal_clk_90edge (rising) and tx_cal_clk_90edge (rising) may not meet (slack: -0.277 ns) the hold (min) timing requirement
+INFO     : Write Timing Report to "C:/Users/13227/Documents/2026_qrs/2D_Rendering_Acceleration/ARC_2DRA/par/ddr_demo_ti60/outflow/ddr_demo_ti60.place.timing.rpt" ...

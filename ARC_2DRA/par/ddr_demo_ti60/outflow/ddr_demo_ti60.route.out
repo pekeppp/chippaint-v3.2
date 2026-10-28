@@ -1,0 +1,207 @@
+INFO     : ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO     : Router Setup
+INFO     : ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO     : [Setup Parallel Routing Scheduler]
+INFO     : ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO     : Route Circuit with 10 threads
+INFO     : ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO     : Beneficial skew enabled! Optimizing clock skews ... 
+INFO     : Non-legalized beneficial skew improved geomean CPD by 0.19% (from 2630ps to 2625ps)
+INFO     : CSS improved CPD of clock core_clk by 0.11% (from 9635ps to 9624ps)
+INFO     : CSS improved CPD of clock sdram_clk by 0.00% (from 1951ps to 1951ps)
+INFO     : CSS improved CPD of clock rx_cal_clk by 0.00% (from 1666ps to 1666ps)
+INFO     : CSS improved CPD of clock tx_cal_clk by 0.00% (from 2032ps to 2032ps)
+INFO     : CSS improved CPD of clock tx_cal_clk_90edge by 0.00% (from 1980ps to 1980ps)
+INFO     : Discretized beneficial skew improved geomean CPD by 0.00% (from 2630ps to 2630ps in 40 iterations and 2.0 sec)
+INFO     : ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO     : Overridding delay budgets for 178 synchronizer-related pins
+INFO     : Iter  1: overlap=92610   heapops=13422865   (0%) cpd=9624  frr=1.00  msec=4940
+INFO     : [Setup Delay Budgets | 726.1 ms]
+INFO     : ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO     : Hold Fixing
+INFO     : ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO     : Total min wire delay:  12569902
+INFO     : Hold fix wire delay:        143
+INFO     : Hold fix delay ratio:     0.00%
+INFO     : Pins requiring hold fix:  0.00%
+INFO     : ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO     : Iter  2: overlap=42694   heapops=10492318   (25%) cpd=9622  frr=1.00  msec=1305
+INFO     : Iter  3: overlap=30103   heapops=9366961    (36%) cpd=9624  frr=1.00  msec=1178
+INFO     : Iter  4: overlap=22964   heapops=8711691    (47%) cpd=9625  frr=1.00  msec=1129
+INFO     : Iter  5: overlap=16509   heapops=7719418    (54%) cpd=9623  frr=1.00  msec=1058
+INFO     : Iter  6: overlap=11765   heapops=6721552    (62%) cpd=9625  frr=1.00  msec=976
+INFO     : Iter  7: overlap=7887    heapops=5772929    (70%) cpd=9627  frr=1.00  msec=881
+INFO     : Iter  8: overlap=4909    heapops=4511884    (77%) cpd=9636  frr=1.00  msec=737
+INFO     : Iter  9: overlap=3059    heapops=3918715    (81%) cpd=9653  frr=1.00  msec=700
+INFO     : Iter 10: overlap=1822    heapops=3082078    (84%) cpd=9638  frr=1.00  msec=683
+INFO     : Iter 11: overlap=1021    heapops=2234993    (88%) cpd=9638  frr=1.00  msec=606
+INFO     : Iter 12: overlap=617     heapops=1893545    (89%) cpd=9691  frr=1.01  msec=585
+INFO     : Iter 13: overlap=404     heapops=1505939    (90%) cpd=9737  frr=1.01  msec=573
+INFO     : Iter 14: overlap=271     heapops=1151324    (91%) cpd=9689  frr=1.01  msec=442
+INFO     : [Rebuild Parallel Routing Scheduler]
+INFO     : Iter 15: overlap=181     heapops=1540797    (91%) cpd=9794  frr=1.02  msec=672
+INFO     : Iter 16: overlap=147     heapops=1390503    (91%) cpd=9691  frr=1.01  msec=573
+INFO     : Iter 17: overlap=100     heapops=1503657    (91%) cpd=9892  frr=1.03  msec=653
+INFO     : Iter 18: overlap=106     heapops=1195993    (91%) cpd=9697  frr=1.01  msec=534
+INFO     : Iter 19: overlap=64      heapops=1139501    (91%) cpd=10095 frr=1.05  msec=524
+INFO     : Iter 20: overlap=59      heapops=635287     (91%) cpd=9762  frr=1.01  msec=336
+INFO     : Iter 21: overlap=35      heapops=187525     (91%) cpd=9816  frr=1.02  msec=186
+INFO     : Iter 22: overlap=29      heapops=188049     (91%) cpd=9762  frr=1.01  msec=183
+INFO     : Iter 23: overlap=23      heapops=165795     (91%) cpd=10012 frr=1.04  msec=176
+INFO     : Iter 24: overlap=32      heapops=180801     (91%) cpd=9875  frr=1.03  msec=184
+INFO     : Iter 25: overlap=24      heapops=169479     (91%) cpd=9804  frr=1.02  msec=179
+INFO     : Iter 26: overlap=11      heapops=160054     (91%) cpd=9995  frr=1.04  msec=175
+INFO     : Iter 27: overlap=12      heapops=159558     (91%) cpd=9970  frr=1.04  msec=176
+INFO     : Iter 28: overlap=9       heapops=157106     (91%) cpd=9955  frr=1.03  msec=177
+INFO     : Iter 29: overlap=8       heapops=156715     (91%) cpd=10002 frr=1.04  msec=177
+INFO     : Iter 30: overlap=4       heapops=155277     (91%) cpd=9927  frr=1.03  msec=177
+INFO     : Iter 31: overlap=2       heapops=155808     (91%) cpd=10015 frr=1.04  msec=174
+INFO     : Iter 32: overlap=2       heapops=154076     (91%) cpd=9927  frr=1.03  msec=179
+INFO     : Iter 33: overlap=2       heapops=153296     (91%) cpd=9961  frr=1.04  msec=179
+INFO     : ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO     : Beneficial skew enabled! Optimizing clock skews ... 
+INFO     : Non-legalized beneficial skew improved geomean CPD by 0.00% (from 2715ps to 2715ps)
+INFO     : CSS improved CPD of clock core_clk by 1.09% (from 9961ps to 9852ps)
+INFO     : CSS improved CPD of clock sdram_clk by 0.00% (from 1951ps to 1951ps)
+INFO     : CSS improved CPD of clock rx_cal_clk by 0.00% (from 1804ps to 1804ps)
+INFO     : CSS improved CPD of clock tx_cal_clk by 0.00% (from 2129ps to 2129ps)
+INFO     : CSS improved CPD of clock tx_cal_clk_90edge by 0.00% (from 1979ps to 1979ps)
+INFO     : Discretized beneficial skew improved geomean CPD by 0.22% (from 2715ps to 2709ps in 1 iterations and 0.8 sec)
+INFO     : ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO     : Iter 34: overlap=0       heapops=153027     (91%) cpd=9852  frr=1.02  msec=1000
+INFO     : ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO     : Routing Result
+INFO     : ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO     : Routing Succeeded in 23.74 seconds taking 34 iterations! 
+INFO     : 
+INFO     : First iteration critical path delay = 9.624 ns 
+INFO     : Last iteration critical path delay  = 9.852 ns (ratio = 1.02)
+INFO     : Max Routing Heap Size = 100,006
+INFO     : Routing trace written to file 'C:/Users/13227/Documents/2026_qrs/2D_Rendering_Acceleration/ARC_2DRA/par/ddr_demo_ti60/outflow/ddr_demo_ti60.troutingtraces' 
+INFO     : ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO     : Routing took 25.6004024 seconds [FlowMsg::StageDuration]
+INFO     :     Routing took 79.859375 seconds (approximately) in total CPU time [FlowMsg::StageDuration::CPUTime]
+INFO     : Routing virtual memory usage: begin = 166.908 MB, end = 470.288 MB, delta = 303.38 MB [FlowMsg::VMUsage]
+INFO     :     Routing peak virtual memory usage = 546.912 MB [FlowMsg::VMUsage::Peak]
+INFO     : Routing resident set memory usage: begin = 188.304 MB, end = 486.392 MB, delta = 298.088 MB [FlowMsg::RSSUsage]
+INFO     :     Routing peak resident set memory usage = 548.688 MB [FlowMsg::RSSUsage::Peak]
+           ***** Beginning stage final timing analysis ... *****
+WARNING  : No ports matched 'clk_in'
+WARNING  : [SDC C:/Users/13227/Documents/2026_qrs/2D_Rendering_Acceleration/ARC_2DRA/par/ddr_demo_ti60/sdc/ddr3.sdc:1] No valid pin(s) found for clock
+WARNING  : [SDC C:/Users/13227/Documents/2026_qrs/2D_Rendering_Acceleration/ARC_2DRA/par/ddr_demo_ti60/sdc/ddr3.sdc:1] Unable to run 'create_clock' constraint due to warnings found
+WARNING  : [SDC C:/Users/13227/Documents/2026_qrs/2D_Rendering_Acceleration/ARC_2DRA/par/ddr_demo_ti60/sdc/ddr3.sdc:6] No valid object(s) found for 'axi_clk'
+WARNING  : [SDC C:/Users/13227/Documents/2026_qrs/2D_Rendering_Acceleration/ARC_2DRA/par/ddr_demo_ti60/sdc/ddr3.sdc:6] No valid pin(s) found for clock
+WARNING  : [SDC C:/Users/13227/Documents/2026_qrs/2D_Rendering_Acceleration/ARC_2DRA/par/ddr_demo_ti60/sdc/ddr3.sdc:6] Unable to run 'create_clock' constraint due to warnings found
+WARNING  : [SDC C:/Users/13227/Documents/2026_qrs/2D_Rendering_Acceleration/ARC_2DRA/par/ddr_demo_ti60/sdc/ddr3.sdc:8] No valid object(s) found for 'peripheralClk'
+WARNING  : [SDC C:/Users/13227/Documents/2026_qrs/2D_Rendering_Acceleration/ARC_2DRA/par/ddr_demo_ti60/sdc/ddr3.sdc:8] No valid pin(s) found for clock
+WARNING  : [SDC C:/Users/13227/Documents/2026_qrs/2D_Rendering_Acceleration/ARC_2DRA/par/ddr_demo_ti60/sdc/ddr3.sdc:8] Unable to run 'create_clock' constraint due to warnings found
+WARNING  : [SDC C:/Users/13227/Documents/2026_qrs/2D_Rendering_Acceleration/ARC_2DRA/par/ddr_demo_ti60/sdc/ddr3.sdc:10] set_clock_groups: Defaulting to -exclusive since none of the required option was specified
+WARNING  : [SDC C:/Users/13227/Documents/2026_qrs/2D_Rendering_Acceleration/ARC_2DRA/par/ddr_demo_ti60/sdc/ddr3.sdc:11] set_clock_groups: Defaulting to -exclusive since none of the required option was specified
+WARNING  : [SDC C:/Users/13227/Documents/2026_qrs/2D_Rendering_Acceleration/ARC_2DRA/par/ddr_demo_ti60/sdc/ddr3.sdc:12] set_clock_groups: Defaulting to -exclusive since none of the required option was specified
+WARNING  : [SDC C:/Users/13227/Documents/2026_qrs/2D_Rendering_Acceleration/ARC_2DRA/par/ddr_demo_ti60/sdc/ddr3.sdc:13] set_clock_groups: Defaulting to -exclusive since none of the required option was specified
+WARNING  : [SDC C:/Users/13227/Documents/2026_qrs/2D_Rendering_Acceleration/ARC_2DRA/par/ddr_demo_ti60/sdc/ddr3.sdc:36] No clocks matched 'jtag_inst1_TCK'
+WARNING  : [SDC C:/Users/13227/Documents/2026_qrs/2D_Rendering_Acceleration/ARC_2DRA/par/ddr_demo_ti60/sdc/ddr3.sdc:36] set_output_delay: No valid clock found for -clock
+WARNING  : [SDC C:/Users/13227/Documents/2026_qrs/2D_Rendering_Acceleration/ARC_2DRA/par/ddr_demo_ti60/sdc/ddr3.sdc:36] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING  : [SDC C:/Users/13227/Documents/2026_qrs/2D_Rendering_Acceleration/ARC_2DRA/par/ddr_demo_ti60/sdc/ddr3.sdc:37] No clocks matched 'jtag_inst1_TCK'
+WARNING  : [SDC C:/Users/13227/Documents/2026_qrs/2D_Rendering_Acceleration/ARC_2DRA/par/ddr_demo_ti60/sdc/ddr3.sdc:37] set_output_delay: No valid clock found for -clock
+WARNING  : [SDC C:/Users/13227/Documents/2026_qrs/2D_Rendering_Acceleration/ARC_2DRA/par/ddr_demo_ti60/sdc/ddr3.sdc:37] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING  : [SDC C:/Users/13227/Documents/2026_qrs/2D_Rendering_Acceleration/ARC_2DRA/par/ddr_demo_ti60/sdc/ddr3.sdc:38] No clocks matched 'jtag_inst1_TCK'
+WARNING  : [SDC C:/Users/13227/Documents/2026_qrs/2D_Rendering_Acceleration/ARC_2DRA/par/ddr_demo_ti60/sdc/ddr3.sdc:38] set_input_delay: No valid clock found for -clock
+WARNING  : [SDC C:/Users/13227/Documents/2026_qrs/2D_Rendering_Acceleration/ARC_2DRA/par/ddr_demo_ti60/sdc/ddr3.sdc:38] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : [SDC C:/Users/13227/Documents/2026_qrs/2D_Rendering_Acceleration/ARC_2DRA/par/ddr_demo_ti60/sdc/ddr3.sdc:39] No clocks matched 'jtag_inst1_TCK'
+WARNING  : [SDC C:/Users/13227/Documents/2026_qrs/2D_Rendering_Acceleration/ARC_2DRA/par/ddr_demo_ti60/sdc/ddr3.sdc:39] set_input_delay: No valid clock found for -clock
+WARNING  : [SDC C:/Users/13227/Documents/2026_qrs/2D_Rendering_Acceleration/ARC_2DRA/par/ddr_demo_ti60/sdc/ddr3.sdc:39] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : No ports matched 'jtag_inst1_RESET'
+WARNING  : [SDC C:/Users/13227/Documents/2026_qrs/2D_Rendering_Acceleration/ARC_2DRA/par/ddr_demo_ti60/sdc/ddr3.sdc:40] No clocks matched 'jtag_inst1_TCK'
+WARNING  : [SDC C:/Users/13227/Documents/2026_qrs/2D_Rendering_Acceleration/ARC_2DRA/par/ddr_demo_ti60/sdc/ddr3.sdc:40] set_input_delay: No valid clock found for -clock
+WARNING  : [SDC C:/Users/13227/Documents/2026_qrs/2D_Rendering_Acceleration/ARC_2DRA/par/ddr_demo_ti60/sdc/ddr3.sdc:40] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : No ports matched 'jtag_inst1_RESET'
+WARNING  : [SDC C:/Users/13227/Documents/2026_qrs/2D_Rendering_Acceleration/ARC_2DRA/par/ddr_demo_ti60/sdc/ddr3.sdc:41] No clocks matched 'jtag_inst1_TCK'
+WARNING  : [SDC C:/Users/13227/Documents/2026_qrs/2D_Rendering_Acceleration/ARC_2DRA/par/ddr_demo_ti60/sdc/ddr3.sdc:41] set_input_delay: No valid clock found for -clock
+WARNING  : [SDC C:/Users/13227/Documents/2026_qrs/2D_Rendering_Acceleration/ARC_2DRA/par/ddr_demo_ti60/sdc/ddr3.sdc:41] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : [SDC C:/Users/13227/Documents/2026_qrs/2D_Rendering_Acceleration/ARC_2DRA/par/ddr_demo_ti60/sdc/ddr3.sdc:42] No clocks matched 'jtag_inst1_TCK'
+WARNING  : [SDC C:/Users/13227/Documents/2026_qrs/2D_Rendering_Acceleration/ARC_2DRA/par/ddr_demo_ti60/sdc/ddr3.sdc:42] set_input_delay: No valid clock found for -clock
+WARNING  : [SDC C:/Users/13227/Documents/2026_qrs/2D_Rendering_Acceleration/ARC_2DRA/par/ddr_demo_ti60/sdc/ddr3.sdc:42] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : [SDC C:/Users/13227/Documents/2026_qrs/2D_Rendering_Acceleration/ARC_2DRA/par/ddr_demo_ti60/sdc/ddr3.sdc:43] No clocks matched 'jtag_inst1_TCK'
+WARNING  : [SDC C:/Users/13227/Documents/2026_qrs/2D_Rendering_Acceleration/ARC_2DRA/par/ddr_demo_ti60/sdc/ddr3.sdc:43] set_input_delay: No valid clock found for -clock
+WARNING  : [SDC C:/Users/13227/Documents/2026_qrs/2D_Rendering_Acceleration/ARC_2DRA/par/ddr_demo_ti60/sdc/ddr3.sdc:43] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : No ports matched 'jtag_inst1_UPDATE'
+WARNING  : [SDC C:/Users/13227/Documents/2026_qrs/2D_Rendering_Acceleration/ARC_2DRA/par/ddr_demo_ti60/sdc/ddr3.sdc:44] No clocks matched 'jtag_inst1_TCK'
+WARNING  : [SDC C:/Users/13227/Documents/2026_qrs/2D_Rendering_Acceleration/ARC_2DRA/par/ddr_demo_ti60/sdc/ddr3.sdc:44] set_input_delay: No valid clock found for -clock
+WARNING  : [SDC C:/Users/13227/Documents/2026_qrs/2D_Rendering_Acceleration/ARC_2DRA/par/ddr_demo_ti60/sdc/ddr3.sdc:44] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : No ports matched 'jtag_inst1_UPDATE'
+WARNING  : [SDC C:/Users/13227/Documents/2026_qrs/2D_Rendering_Acceleration/ARC_2DRA/par/ddr_demo_ti60/sdc/ddr3.sdc:45] No clocks matched 'jtag_inst1_TCK'
+WARNING  : [SDC C:/Users/13227/Documents/2026_qrs/2D_Rendering_Acceleration/ARC_2DRA/par/ddr_demo_ti60/sdc/ddr3.sdc:45] set_input_delay: No valid clock found for -clock
+WARNING  : [SDC C:/Users/13227/Documents/2026_qrs/2D_Rendering_Acceleration/ARC_2DRA/par/ddr_demo_ti60/sdc/ddr3.sdc:45] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : [SDC C:/Users/13227/Documents/2026_qrs/2D_Rendering_Acceleration/ARC_2DRA/par/ddr_demo_ti60/sdc/ddr3.sdc:46] No clocks matched 'jtag_inst1_TCK'
+WARNING  : [SDC C:/Users/13227/Documents/2026_qrs/2D_Rendering_Acceleration/ARC_2DRA/par/ddr_demo_ti60/sdc/ddr3.sdc:46] set_input_delay: No valid clock found for -clock
+WARNING  : [SDC C:/Users/13227/Documents/2026_qrs/2D_Rendering_Acceleration/ARC_2DRA/par/ddr_demo_ti60/sdc/ddr3.sdc:46] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : [SDC C:/Users/13227/Documents/2026_qrs/2D_Rendering_Acceleration/ARC_2DRA/par/ddr_demo_ti60/sdc/ddr3.sdc:47] No clocks matched 'jtag_inst1_TCK'
+WARNING  : [SDC C:/Users/13227/Documents/2026_qrs/2D_Rendering_Acceleration/ARC_2DRA/par/ddr_demo_ti60/sdc/ddr3.sdc:47] set_input_delay: No valid clock found for -clock
+WARNING  : [SDC C:/Users/13227/Documents/2026_qrs/2D_Rendering_Acceleration/ARC_2DRA/par/ddr_demo_ti60/sdc/ddr3.sdc:47] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : [SDC C:/Users/13227/Documents/2026_qrs/2D_Rendering_Acceleration/ARC_2DRA/par/ddr_demo_ti60/sdc/ddr3.sdc:57] Missing value for option -period, please type 'create_clock -help' for usage info
+WARNING  : [SDC C:/Users/13227/Documents/2026_qrs/2D_Rendering_Acceleration/ARC_2DRA/par/ddr_demo_ti60/sdc/ddr3.sdc:57] Unable to run 'create_clock' constraint due to warnings found
+WARNING  : No ports matched 'ddr_addr[14]'
+WARNING  : [SDC C:/Users/13227/Documents/2026_qrs/2D_Rendering_Acceleration/ARC_2DRA/par/ddr_demo_ti60/sdc/ddr3.sdc:86] set_output_delay: No valid output port(s) found
+WARNING  : [SDC C:/Users/13227/Documents/2026_qrs/2D_Rendering_Acceleration/ARC_2DRA/par/ddr_demo_ti60/sdc/ddr3.sdc:86] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING  : No ports matched 'ddr_addr[14]'
+WARNING  : [SDC C:/Users/13227/Documents/2026_qrs/2D_Rendering_Acceleration/ARC_2DRA/par/ddr_demo_ti60/sdc/ddr3.sdc:87] set_output_delay: No valid output port(s) found
+WARNING  : [SDC C:/Users/13227/Documents/2026_qrs/2D_Rendering_Acceleration/ARC_2DRA/par/ddr_demo_ti60/sdc/ddr3.sdc:87] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING  : No ports matched 'ddr_addr[15]'
+WARNING  : [SDC C:/Users/13227/Documents/2026_qrs/2D_Rendering_Acceleration/ARC_2DRA/par/ddr_demo_ti60/sdc/ddr3.sdc:88] set_output_delay: No valid output port(s) found
+WARNING  : [SDC C:/Users/13227/Documents/2026_qrs/2D_Rendering_Acceleration/ARC_2DRA/par/ddr_demo_ti60/sdc/ddr3.sdc:88] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING  : No ports matched 'ddr_addr[15]'
+WARNING  : [SDC C:/Users/13227/Documents/2026_qrs/2D_Rendering_Acceleration/ARC_2DRA/par/ddr_demo_ti60/sdc/ddr3.sdc:89] set_output_delay: No valid output port(s) found
+WARNING  : [SDC C:/Users/13227/Documents/2026_qrs/2D_Rendering_Acceleration/ARC_2DRA/par/ddr_demo_ti60/sdc/ddr3.sdc:89] Unable to run 'set_output_delay' constraint due to warnings found
+INFO     : SDC file 'C:/Users/13227/Documents/2026_qrs/2D_Rendering_Acceleration/ARC_2DRA/par/ddr_demo_ti60/sdc/ddr3.sdc' parsed successfully.
+Maximum possible analyzed clocks frequency
+   Clock Name     Period (ns)  Frequency (MHz)     Edge
+core_clk             9.978        100.220         (R-R)
+sdram_clk            2.077        481.464         (R-R)
+rx_cal_clk           1.930        518.135         (R-R)
+tx_cal_clk           2.255        443.459         (R-R)
+tx_cal_clk_90edge    2.105        475.059         (R-R)
+
+Geomean max period: 2.856
+
+Setup (Max) Clock Relationship
+  Launch Clock      Capture Clock   Constraint (ns)     Slack (ns)          Edge
+core_clk          core_clk               10.000           0.022            (R-R)
+sdram_clk         sdram_clk               2.500           0.423            (R-R)
+rx_cal_clk        rx_cal_clk              2.500           0.570            (R-R)
+tx_cal_clk        tx_cal_clk              2.500           0.245            (R-R)
+tx_cal_clk_90edge tx_cal_clk_90edge       2.500           0.395            (R-R)
+
+Hold (Min) Clock Relationship
+  Launch Clock      Capture Clock   Constraint (ns)     Slack (ns)          Edge
+core_clk          core_clk               0.000            0.015            (R-R)
+sdram_clk         sdram_clk              0.000            0.061            (R-R)
+rx_cal_clk        rx_cal_clk             0.000            0.026            (R-R)
+tx_cal_clk        tx_cal_clk             0.000            0.095            (R-R)
+tx_cal_clk_90edge tx_cal_clk_90edge      0.000            0.093            (R-R)
+
+INFO     : Write Timing Report to "C:/Users/13227/Documents/2026_qrs/2D_Rendering_Acceleration/ARC_2DRA/par/ddr_demo_ti60/outflow\ddr_demo_ti60.timing.rpt" ...
+INFO     : final timing analysis took 0.9788698 seconds [FlowMsg::StageDuration]
+INFO     :     final timing analysis took 1.390625 seconds (approximately) in total CPU time [FlowMsg::StageDuration::CPUTime]
+INFO     : final timing analysis virtual memory usage: begin = 408.944 MB, end = 514.832 MB, delta = 105.888 MB [FlowMsg::VMUsage]
+INFO     :     final timing analysis peak virtual memory usage = 546.912 MB [FlowMsg::VMUsage::Peak]
+INFO     : final timing analysis resident set memory usage: begin = 423.064 MB, end = 531.44 MB, delta = 108.376 MB [FlowMsg::RSSUsage]
+INFO     :     final timing analysis peak resident set memory usage = 548.688 MB [FlowMsg::RSSUsage::Peak]
+           ***** Ending stage final timing analysis *****
+           
+           ***** Beginning stage bitstream generation ... *****
+INFO     : Reading core interface constraints file "C:/Users/13227/Documents/2026_qrs/2D_Rendering_Acceleration/ARC_2DRA/par/ddr_demo_ti60/outflow/ddr_demo_ti60.interface.csv" [DBMsg::CoreInterfaceConstraintsFileReading]
+INFO     : Successfully read core interface constraints file "C:/Users/13227/Documents/2026_qrs/2D_Rendering_Acceleration/ARC_2DRA/par/ddr_demo_ti60/outflow/ddr_demo_ti60.interface.csv" [DBMsg::CoreInterfaceConstraintsFileLoadSuccess]
+INFO     : Finished writing bitstream file C:/Users/13227/Documents/2026_qrs/2D_Rendering_Acceleration/ARC_2DRA/par/ddr_demo_ti60/work_pnr\ddr_demo_ti60.lbf.
+INFO     : Bitstream generation took 1.5170227 seconds [FlowMsg::StageDuration]
+INFO     :     Bitstream generation took 1.375 seconds (approximately) in total CPU time [FlowMsg::StageDuration::CPUTime]
+INFO     : Bitstream generation virtual memory usage: begin = 366.952 MB, end = 527.328 MB, delta = 160.376 MB [FlowMsg::VMUsage]
+INFO     :     Bitstream generation peak virtual memory usage = 546.912 MB [FlowMsg::VMUsage::Peak]
+INFO     : Bitstream generation resident set memory usage: begin = 385.176 MB, end = 546.728 MB, delta = 161.552 MB [FlowMsg::RSSUsage]
+INFO     :     Bitstream generation peak resident set memory usage = 548.688 MB [FlowMsg::RSSUsage::Peak]
+INFO     : The entire flow of EFX_PNR took 104.4421705 seconds [FlowMsg::StageDuration]
+INFO     :     The entire flow of EFX_PNR took 611.125 seconds (approximately) in total CPU time [FlowMsg::StageDuration::CPUTime]
+INFO     : The entire flow of EFX_PNR virtual memory usage: begin = 20.028 MB, end = 527.328 MB, delta = 507.3 MB [FlowMsg::VMUsage]
+INFO     :     The entire flow of EFX_PNR peak virtual memory usage = 546.912 MB [FlowMsg::VMUsage::Peak]
+INFO     : The entire flow of EFX_PNR resident set memory usage: begin = 23.472 MB, end = 546.768 MB, delta = 523.296 MB [FlowMsg::RSSUsage]
+INFO     :     The entire flow of EFX_PNR peak resident set memory usage = 548.688 MB [FlowMsg::RSSUsage::Peak]

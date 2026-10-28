@@ -1,0 +1,29 @@
+INFO     : Elitestek FPGA Bitstream Generator.
+INFO     : Version: 2026.1.132 
+INFO     : Copyright (C) 2013 - 2026 Efinix, Inc. All rights reserved.
+INFO     : Compiled: May 29 2026.
+INFO     : Using source file "C:/Users/13227/Documents/2026_qrs/2D_Rendering_Acceleration/ARC_2DRA/par/ddr_demo_ti60/work_pnr/ddr_demo_ti60.lbf"
+INFO     : Generating HEX programming file for device "Ti60F225", family "Titanium"
+INFO     : Using periphery source file "C:/Users/13227/Documents/2026_qrs/2D_Rendering_Acceleration/ARC_2DRA/par/ddr_demo_ti60/outflow/ddr_demo_ti60.lpf"
+INFO     : Generating bit file: "C:/Users/13227/Documents/2026_qrs/2D_Rendering_Acceleration/ARC_2DRA/par/ddr_demo_ti60/outflow/ddr_demo_ti60.bit"
+INFO     : HEX Generation Options Summary:
+INFO     : 	Listing options specified to bitstream generation:
+INFO     : 	bitstream_compression                    = on
+INFO     : 	oscillator_clock_divider                 = DIV8
+INFO     : 	enable_external_master_clock             = off
+INFO     : 	spi_low_power_mode                       = on
+INFO     : 	active_capture_clk_edge                  = negedge
+INFO     : 	enable_remote_update                     = off
+INFO     : 	release_tri_then_reset                   = on
+INFO     : 	enable_seu_crc_check                     = off
+INFO     : 	seu_mode                                 = automatic
+INFO     : 	seu_wait_interval                        = 0xFFFFFF
+INFO     : 	jtag_usercode                            = 0xFFFFFFFF
+INFO     : 	io_weak_pullup                           = on
+INFO     : Finished generating "C:/Users/13227/Documents/2026_qrs/2D_Rendering_Acceleration/ARC_2DRA/par/ddr_demo_ti60/outflow/ddr_demo_ti60.hex"
+INFO     : Elitestek Bitstream Generator took 0.9391015 seconds [FlowMsg::StageDuration]
+INFO     :     Elitestek Bitstream Generator took 0.6875 seconds (approximately) in total CPU time [FlowMsg::StageDuration::CPUTime]
+INFO     : Elitestek Bitstream Generator virtual memory usage: begin = 2.656 MB, end = 11.492 MB, delta = 8.836 MB [FlowMsg::VMUsage]
+INFO     :     Elitestek Bitstream Generator peak virtual memory usage = 136.912 MB [FlowMsg::VMUsage::Peak]
+INFO     : Elitestek Bitstream Generator resident set memory usage: begin = 10.272 MB, end = 22.64 MB, delta = 12.368 MB [FlowMsg::RSSUsage]
+INFO     :     Elitestek Bitstream Generator peak resident set memory usage = 144.48 MB [FlowMsg::RSSUsage::Peak]

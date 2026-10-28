@@ -1,0 +1,68 @@
+
+Elitestek FPGA Placement and Routing.
+Version: 2026.1.132 
+Date: Wed Sep 16 08:46:49 2026
+
+Copyright (C) 2013 - 2026 Efinix, Inc. All rights reserved.
+ 
+Family: Titanium 
+Device: Ti60F225
+Top-level Entity Name: ddr_demo_ti60
+
+---------- IO Interface Summary (begin) ----------
+
++------------------------------+--------------+
+|    Missing Interface Pins    | Input/Output |
++------------------------------+--------------+
+|       jtag_inst1_DRCK        |    Input     |
+|        jtag_inst1_TMS        |    Input     |
+|       jtag_inst1_RESET       |    Input     |
+|      jtag_inst1_RUNTEST      |    Input     |
+|      jtag_inst1_UPDATE       |    Input     |
+|  jtag_inst2_autodbg_DRCK__   |    Input     |
+|   jtag_inst2_autodbg_TMS__   |    Input     |
+| jtag_inst2_autodbg_RUNTEST__ |    Input     |
+|           i_arstn            |    Input     |
+|              FB              |    Input     |
+|         ddr_addr[15]         |    Output    |
+|         ddr_addr[14]         |    Output    |
+|         io_jtag_tdi          |    Input     |
+|         io_jtag_tdo          |    Output    |
+|         io_jtag_tck          |    Input     |
+|         io_jtag_tms          |    Input     |
++------------------------------+--------------+
+
+----------- IO Interface Summary (end) ----------
+
+
+---------- Module Resource Usage Distribution Estimates (begin) ----------
+
+'Module Resource Usage Distribution Estimates' table printed in: C:/Users/13227/Documents/2026_qrs/2D_Rendering_Acceleration/ARC_2DRA/par/ddr_demo_ti60/outflow\ddr_demo_ti60.hier_util.rpt
+
+----------- Module Resource Usage Distribution Estimates (end) ----------
+
+Elapsed time for packing: 0 hours 0 minutes 2 seconds
+---------- Resource Summary (begin) ----------
+Inputs: 67 / 1703 (3.93%)
+Outputs: 246 / 2267 (10.85%)
+Global Clocks (GBUF): 10 / 32 (31.25%)
+Regional Clocks (RBUF): 1 / 32 (3.12%)
+	RBUF: Core: 0 / 16 (0.00%)
+	RBUF: Periphery: 1 / 8 (12.50%)
+	RBUF: Multi-Region: 0 / 8 (0.00%)
+XLRs: 38741 / 60800 (63.72%)
+	XLRs needed for LUT4: 15636 / 60800 (25.72%)
+	XLRs needed for LUT4 + FF: 6613 / 60800 (10.88%)
+	XLRs needed for COMB4: 0 / 60800 (0.00%)
+	XLRs needed for COMB4 + FF: 0 / 60800 (0.00%)
+	XLRs needed for Adder: 2778 / 60800 (4.57%)
+	XLRs needed for Adder + FF: 886 / 60800 (1.46%)
+	XLRs needed for SRL8: 717 / 14720 (4.87%)
+	XLRs needed for SRL8 + FF: 0 / 14720 (0.00%)
+	XLRs needed for FF: 12111 / 60800 (19.92%)
+	XLRs needed for Routing: 0 / 60800 (0.00%)
+Memory Blocks: 120 / 256 (46.88%)
+DSP Blocks: 29 / 160 (18.12%)
+---------- Resource Summary (end) ----------
+
+Elapsed time for placement: 0 hours 1 minutes 12 seconds
